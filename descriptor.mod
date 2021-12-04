@@ -1,6 +1,6 @@
-version="1.0-211124"
+version="0.1.0-211124"
 tags={
 	"Total Conversion"
 }
-name="동아시아 모드"
+name="(NEA) NEW 동아시아 모드 - 버그 수정"
 supported_version="1.4.4"
