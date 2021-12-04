@@ -1,0 +1,317 @@
+#박씨 
+#신라 왕성
+#최대한 삼국사기의 내용을 바탕으로 제작
+
+Bak.001 = { #1대 혁거세거서간
+	dynasty = Bak
+	name = "Hyeokgeose"
+	culture = Silla
+	religion = shamanism
+	diplomacy = 5
+	trait = diligent
+	trait = humble
+	trait = honest
+	trait = education_diplomacy_2
+	trait = divine_blood
+	1.1.1 = {
+		birth = yes
+		age = 68
+	}
+	4.1.1 = {
+		death = yes
+	}
+}
+
+Bak.002 = { #알영부인. 박혁거세의 부인.
+	female = yes
+	dynasty = Bak
+	name = "Aryeong"
+	culture = Silla
+	religion = shamanism
+	trait = generous
+	trait = compassionate
+	trait = honest
+	trait = beauty_good_2
+	trait = education_stewardship_2
+	1.1.1 = {
+		birth = yes
+		age = 52
+	}
+	4.1.1 = {
+		death = yes
+	}
+}
+
+Bak.003 = { #2대 남해차차웅. 혁거세거서간의 장남.
+	name = "Namhae"
+	dynasty = Bak
+	religion = shamanism
+	culture = Silla
+	trait = consecrated_blood
+	father = Bak.001
+	mother = Bak.002
+	spouse = Gyeongju_Lee.001
+	1.1.1 = {
+		birth = yes
+		age = 49
+	}
+	24.1.1 = {
+		death = yes
+	}
+}
+
+Bak.004 = { #아로공주 혁거세거서간의 장녀
+	female = yes
+	name = "Aro"
+	dynasty = Bak
+	religion = shamanism
+	culture = Silla
+	trait = devoted
+	trait = paragon
+	trait = celibate
+	father = Bak.001
+	mother = Bak.002
+	1.1.1 = {
+		birth = yes
+		age = 45
+	}
+	31.1.1 = {
+		death = yes
+	}
+}
+
+Bak.005 = { #일지갈문왕. 남해차차웅의 장남.
+	name = "Ilji"
+	dynasty = Bak
+	religion = shamanism
+	culture = Silla
+	trait = consecrated_blood
+	father = Bak.003
+	mother = Gyeongju_Lee.001
+	1.1.1 = {
+		age = 20
+	}
+	54.1.1 = {
+		death = yes
+	}
+}
+
+Bak.006 = { #3대 유리이사금. 남해차차웅의 차남
+	name = "Yuri"
+	dynasty = Bak
+	religion = shamanism
+	culture = Silla
+	trait = consecrated_blood
+	father = Bak.003
+	mother = Gyeongju_Lee.001
+	1.1.1 = {
+		birth = yes
+		age = 19
+	}
+	57.1.1 = {
+		death = yes
+	}
+}
+
+Bak.007 = { #아효공주. 남해차차웅의 장녀 아효부인. 탈해이사금의 부인.
+	female = yes
+	name = "Ahyo"
+	dynasty = Bak
+	religion = shamanism
+	culture = Silla
+	trait = consecrated_blood
+	trait = humble
+	trait = impotent
+	father = Bak.003
+	mother = Gyeongju_Lee.001
+	#생몰년도 미상
+	1.1.1 = {
+		birth = yes set_age = 21
+	}
+	8.1.1 = {
+		add_spouse = Seok.001
+	}
+	67.1.1 = {
+		death = yes
+	}
+}
+
+Bak.008 = { #이리생부인 박씨. 일지갈문왕의 딸.
+	female = yes
+	dynasty = Bak
+	name = "Irisaeng"
+	culture = Silla
+	religion = shamanism
+	trait = consecrated_blood
+	father = Bak.005
+	#spouse = Bak.006 (삼촌과 결혼)
+	3.1.1 = {
+		birth = yes
+	}
+	61.1.1 = {
+		death = yes
+	}
+}
+
+Bak.009 = { #7대 일성이사금. 유리이사금의 장남.
+	name = "Ilseong"
+	dynasty = Bak
+	religion = shamanism
+	culture = Silla
+	trait = consecrated_blood
+	trait = pure_blooded
+	father = Bak.006
+	mother = Bak.008
+	44.1.1 = { #당시 기준으로 110세를 산다는 것이 매우 불가능한 일이라 생각됨.
+		birth = yes
+	}
+	154.1.1 = {
+		death = yes
+	}
+}
+
+Bak.010 = { #5대 파사이사금. 유리이사금의 차남.
+	name = "Pasa"
+	dynasty = Bak
+	religion = shamanism
+	culture = Silla
+	trait = consecrated_blood
+	trait = pure_blooded
+	father = Bak.006
+	mother = Gyeongju_Kim.003 #사요왕의 딸 김씨
+	spouse = Gyeongju_Kim.004
+	45.1.1 = {
+		birth = yes
+	}
+	112.1.1 = {
+		death = yes
+	}
+}
+
+Bak.011 = { #지소례왕의 딸. 박씨 부인. 일성이사금의 부인.
+	female = yes
+	name = "Bak_name1"
+	dynasty = Bak
+	religion = shamanism
+	culture = Silla
+	#father = 지소례왕 박씨
+	#spouse = Bak.009
+	#생몰년도 불명 (일성이사금의 나이와 비슷하게 설정)
+	46.1.1 = {
+		birth = yes
+	}
+	113.1.1 = {
+		death = yes
+	}
+}
+
+Bak.012 = { #6대 지마이사금. 파사이사금의 장남.
+	name = "Jima"
+	dynasty = Bak
+	religion = shamanism
+	culture = Silla
+	trait = consecrated_blood
+	trait = pure_blooded
+	father = Bak.010
+	mother = Gyeongju_Kim.004 #사성부인 김씨
+	spouse = Gyeongju_Kim.005 #애례부인 김씨
+	#생년도 불명
+	67.1.1 = {
+		birth = yes
+	}
+	134.9.1 = {
+		death = yes
+	}
+}
+
+Bak.013 = { #박내례. 지마이사금의 딸. 아달라이사금의 부인.
+	female = yes
+	name = "Naerye"
+	dynasty = Bak
+	religion = shamanism
+	culture = Silla
+	trait = consecrated_blood
+	trait = pure_blooded
+	father = Bak.012
+	mother = Gyeongju_Kim.005
+	#spouse = Bak.014
+	#생몰년도 불명 (아달라이사금의 나이와 비슷하게 설정)
+	110.1.1 = {
+		birth = yes
+	}
+	194.1.1 = {
+		death = yes
+	}
+}
+
+Bak.014 = { #8대 아달라이사금. 일성이사금의 장남. 박씨 계보 중단.
+	name = "Adalra"
+	dynasty = Bak
+	religion = shamanism
+	culture = Silla
+	trait = consecrated_blood
+	trait = pure_blooded
+	trait = giant
+	father = Bak.009
+	mother = Bak.011 #지소례왕의 딸 박씨부인.
+	spouse = Bak.013 #박내례. 지마이사금의 딸.
+	#생년도 불명
+	110.1.1 = {
+		birth = yes
+	}
+	184.3.1 = { #내례부인의 박씨 일파와 석씨가 연합하여 아달라를 몰아냈을 가능성이 존재함.
+		death = yes
+	}
+}
+
+Bak.015 = { #술례부인 박씨 석이매의 장녀. 어머니 내례부인 박씨의 성을 따라간것으로 보임.
+	female = yes
+	name = "Sulrye"
+	dynasty = Bak
+	religion = shamanism
+	culture = Silla
+	father = Seok.005
+	mother = Bak.013 #내례부인 박씨.
+	#spouse = Gyeongju_Kim.006 구도갈문왕 김씨
+	#생몰년도 미상
+	189.1.1 = { 
+		birth = yes
+	}
+	290.1.1 = {
+		death = yes
+	}
+}
+
+Bak.016 = { #내음갈문왕의 딸 박씨. 석이음의 딸. (어머니의 성을 따라감)
+	female = yes
+	name = "Ieum"
+	dynasty = Bak
+	religion = shamanism
+	culture = Silla
+	father = Seok.014
+	#mother = 부인 박씨
+	#생몰년도 미상
+	217.1.1 = { 
+		birth = yes
+	}
+	287.1.1 = {
+		death = yes
+	}
+}
+
+Bak.01 = { #발해 검교개국남. 박어
+	name = "Eo"
+	dynasty = Bak
+	religion = mahayana
+	culture = Balhae
+	#생몰년도 불명
+	871.1.1 = {
+		birth = yes
+	}
+	925.12.29 = {
+		culture = Goryeo
+	}
+	939.1.1 = {
+		death = yes
+	}
+}
