@@ -128,6 +128,7 @@ Chinese_emperor = { #천자
 	priority = 150
 	top_liege = no
 	governments = { Autocracy_government Bureaucracy_government }
+}
 
 Chinese_empress = { #황후
 	type = character
@@ -137,6 +138,7 @@ Chinese_empress = { #황후
 	priority = 150
 	top_liege = no
 	governments = { Autocracy_government Bureaucracy_government }
+}
 
 empire_Chinese = { #천자국
 	type = title
@@ -146,26 +148,30 @@ empire_Chinese = { #천자국
 }
 
 #Korea_emperor = { #천손/천제
-	type = character
-	gender = male
-	special = holder
-	tier = empire
-	priority = 150
-	top_liege = no
-	governments = { Autocracy_government Bureaucracy_government }
+#	type = character
+#	gender = male
+#	special = holder
+#	tier = empire
+#	priority = 150
+#	top_liege = no
+#	governments = { Autocracy_government Bureaucracy_government }
+#}
+
 
 #Korea_empress = { #황후
-	type = character
-	gender = female
-	special = holder
-	tier = empire
-	priority = 150
-	top_liege = no
-	governments = { Autocracy_government Bureaucracy_government }
+#	type = character
+#	gender = female
+#	special = holder
+#	tier = empire
+#	priority = 150
+#	top_liege = no
+#	governments = { Autocracy_government Bureaucracy_government }
+#}
+
 
 #empire_Korea = { #천손국
-	type = title
-	tier = empire
-	priority = 150
-	governments = { Autocracy_government Bureaucracy_government }
-}
+#	type = title
+#	tier = empire
+#	priority = 150
+#	governments = { Autocracy_government Bureaucracy_government }
+#}
