@@ -1,0 +1,173 @@
+﻿#############################################
+# CHARACTER NICKNAMES
+#############################################
+
+# 동아시아 묘호
+#○조
+nick_Taejo = {}
+nick_Gojo = {}
+nick_Gyeongjo = {}
+nick_Gangjo = {}
+nick_Gwangjo = {}
+nick_Daejo = {}
+nick_Deokjo = {}
+nick_Dojo = {}
+nick_Mokjo = {}
+nick_Munjo = {}
+nick_Seonjo = {}
+nick_Seongjo = {}
+nick_Sejo = {}
+nick_Sukjo = {}
+nick_Sunjo = {}
+nick_Sojo = {}
+nick_Sinjo = {}
+nick_Yeoljo = {}
+nick_Yeongjo = {}
+nick_Yejo = {}
+nick_Wonjo = {}
+nick_Uijo = {}
+nick_Ikjo = {}
+nick_Injo = {}
+nick_Jangjo = {}
+nick_Jeongjo = {}
+nick_Heonjo = {}
+nick_Hyeonjo = {}
+nick_Hyejo = {}
+nick_Hwijo = {}
+nick_Hwanjo = {}
+nick_Huijo = {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#○종
+nick_Taejong = {}
+nick_Gojong = {}
+nick_Gongjong = {}
+nick_Gyeongjong = {}
+nick_Gangjong = {}
+nick_Gwangjong = {}
+nick_Danjong = {}
+nick_Daejong = {}
+nick_Deokjong = {}
+nick_Dojong = {}
+nick_Mokjong = {}
+nick_Mujong = {}
+nick_Munjojong = {}
+nick_Myeongjong = {}
+nick_Minjong = {}
+nick_Seonjong = {}
+nick_Seongjong = {}
+nick_Sejong = {}
+nick_Sukjong = {}
+nick_Sunjong = {}
+nick_Sojong = {}
+nick_Sungjong = {}
+nick_Sinjong = {}
+nick_Anjong = {}
+nick_Yangjong = {}
+nick_Aejong = {}
+nick_Yeoljong = {}
+nick_Yeongjong = {}
+nick_Yejong = {}
+nick_Wonjong = {}
+nick_Wijong = {}
+nick_Uijong = {}
+nick_Ijong = {}
+nick_Ikjong = {}
+nick_Injong = {}
+nick_Jangjong = {}
+nick_Jeongjong = {}
+nick_Jungjong = {}
+nick_Jinjong = {}
+nick_Cheonljong = {}
+nick_Heonjong = {}
+nick_Hyeonjong = {}
+nick_Hyejong = {}
+nick_Hwijong = {}
+nick_Hwanjong = {}
+nick_Huijong = {}
+nick_Heumjong = {}
+nick_Hongjong = {}
+nick_Heungjong = {}
+
+
+
+
+
+
+
+
+
+
+
+
+#○○공
+nick_Hondeokgong = {}
+nick_Donghonyanghu = {}
+
+
+
+
+
+#○○제
+nick_Ganmunje = {}
+nick_Goje = {}
+nick_Gongje = {}
+nick_Gyeongje = {}
+nick_Deokje = {}
+nick_Domuje = {}
+nick_Myongje = {}
+nick_Myeongwonje = {}
+nick_Muje = {}
+nick_Museongje = {}
+nick_Minje = {}
+nick_Munje = {}
+nick_Munseonje = {}
+nick_Munseongje = {}
+nick_Seonje = {}
+nick_Seonmuje = {}
+nick_Seongje = {}
+nick_Soje = {}
+nick_Sunje = {}
+nick_Anje = {}
+nick_Aeje = {}
+nick_Yangje = {}
+nick_Yeolje = {}
+nick_Yeongje = {}
+nick_Wonje = {}
+nick_Jeongje = {}
+nick_Jeolminje = {}
+nick_Jilje = {}
+nick_Taemuje = {}
+nick_Pyeongje = {}
+nick_Pyeje = {}
+nick_Heonje = {}
+nick_Heonmunje = {}
+nick_Hyeje = {}
+nick_Hwaje = {}
+nick_Hoije = {}
+nick_Hwanje = {}
+nick_Hyoje = {}
+nick_Hyomuje = {}
+nick_Hyomunje = {}
+nick_Hyominje = {}
+nick_Hyomyeongje = {}
+nick_Hyosoje = {}
+nick_Hyoseonje = {}
+nick_Hyojangje = {}
+nick_Hyojeongje = {}
+
+#그 외
+
+nick_DokAnRyong = {}
