@@ -64,18 +64,6 @@
 	}
 	if = {
 		limit = {
-			exists = dynasty
-			any_close_or_extended_family_member = {
-				count >= 10
-			}
-		}
-		add = {
-			value = family_size
-			multiply = 0.1
-		}
-	}
-	if = {
-		limit = {
 			any_consort = {
 				count >= 2
 			}
