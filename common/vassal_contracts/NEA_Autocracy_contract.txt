@@ -1,0 +1,82 @@
+﻿special_Autocracy_contract = {
+	display_mode = radiobutton
+	is_shown = {
+		scope:vassal.primary_title.tier >= tier_county
+	}
+	obligation_levels = { # 의무단계
+		special_Autocracy_contract_0 = {#지방 군권&행정권 위임 
+			default = yes
+			position = { 0 1 }
+			flag = Autocracy_contract_0
+			vassal_modifier = {
+				vassal_opinion = 10
+				
+				domain_limit = 5
+				max_garrison = 250
+				garrison_size = 0.2
+				defender_holding_advantage = 5
+				hostile_raid_time = 0.15
+				character_capital_county_monthly_development_growth_add = 0.3
+			}
+			liege_modifier = {
+				monthly_income = 0.2
+				vassal_limit = -0.25
+				tyranny_gain_mult = -0.02
+				additional_fort_level = 2
+			}
+			tax = 0.3
+			levies_factor = -0.95
+			ai_liege_desire = 10
+			ai_vassal_desire = 0
+		}
+		special_Autocracy_contract_1 = {#양세법&부병제
+			parent = special_Autocracy_contract_0
+			position = { 0 2 }
+			flag = vassal_contract_war_override
+			tax_factor = 0.3
+			levies_factor = 0.3
+			
+			liege_modifier = {
+				tax_mult = 0.1
+				development_growth_factor = 0.10
+				monthly_prestige = 0.2
+				cultural_head_fascination_mult = 0.02
+			}
+			vassal_modifier = {
+				tax_mult = 0.1
+				development_growth_factor = 0.15
+				defender_holding_advantage = 3
+				levy_size = 0.15
+				supply_limit_mult = 0.25
+			}
+			flag = Autocracy_contract_1
+			
+			ai_liege_desire = 0
+			ai_vassal_desire = 10
+		}
+		special_Autocracy_contract_2 = {#황실결탁 번왕책봉
+			is_valid = {
+				scope:vassal.primary_title.tier >= tier_kingdom #왕 작위에서만 가능
+			}
+			parent = special_Autocracy_contract_0
+			position = { 0 3 }
+			tax_factor = 0.35
+			levies_factor = -0.7
+			liege_modifier = {
+				tax_mult = -0.05
+				vassal_limit = 2
+				monthly_prestige_gain_mult = 0.3
+				monthly_dynasty_prestige = 0.3
+			}
+			vassal_modifier = {
+				monthly_county_control_change_factor = -0.15
+				monthly_prestige_gain_mult = 0.2
+				monthly_dynasty_prestige = 0.3
+			}
+			flag = Autocracy_contract_2
+			
+			ai_liege_desire = 0
+			ai_vassal_desire = 10
+		}
+	 }		
+}
