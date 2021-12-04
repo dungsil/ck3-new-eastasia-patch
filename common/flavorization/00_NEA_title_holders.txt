@@ -1,0 +1,171 @@
+﻿# Accepted categories are: governments, cultures, culture_groups, faiths, religions
+# A Flavorization will apply if ALL specified categories have ANY of their entries
+# represented in the character/title
+# So for example:
+# governments = { feudal_government }
+# culture_groups = { mongolic_group central_germanic_group }
+# religions = { christianity_religion }
+# cultures = { norse }
+# faiths = { catholicism }
+# For this to apply a character MUST BE feudal, AND must also be EITHER altaic OR germanic
+# priority is used to determine priority, if they are the same then the LAST will be selected,
+# and honorifics will be prefered over landed titles. Default priority is 1
+# If a flavorization does not have a tier it can apply to all tiers of characters, too many non-tiered
+# flavorizations is bad for performance though, YOU HAVE BEEN WARNED!
+# 'top_liege = no' means that its the holder of the title causing the honorific that is tested for
+# the various categories, so for a prince it is the king that is tested, for a queen mother it is her son
+# if this is not specified ( or 'top_liege = yes' the default ) then it is the top liege of that character
+# that is tested, this means that most title flavor comes from the top liege of the title not the holder
+
+
+#############################################
+baron_ea_male = { 현령/감군
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 6
+	top_liege = no
+	governments = { Autocracy_government Bureaucracy_government }
+}
+baron_ea_female = { 현령부인
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 6
+	top_liege = no
+	governments = { Autocracy_government Bureaucracy_government }
+}
+barony_ea = { #현
+	type = title
+	tier = barony
+	top_liege = no
+	priority = 6
+	governments = { Autocracy_government Bureaucracy_government }
+}
+count_ea_male = { 자사/태수
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 16
+	top_liege = no
+	governments = { Autocracy_government Bureaucracy_government }
+}
+count_ea_female = { 자사부인/태수부인
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 16
+	top_liege = no
+	governments = { Autocracy_government Bureaucracy_government }
+}
+county_ea = { #주
+	type = title
+	tier = county
+	top_liege = no
+	priority = 16
+	governments = { Autocracy_government Bureaucracy_government }
+}
+duke_ea_male = { #관찰사/절도사
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 26
+	top_liege = no
+	governments = { Autocracy_government Bureaucracy_government }
+}
+duke_ea_female = { #관찰사부인/절도사부인
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 26
+	top_liege = no
+	governments = { Autocracy_government Bureaucracy_government }
+}
+duchy_ea = { #군
+	type = title
+	tier = duchy
+	top_liege = no
+	priority = 26
+	governments = { Autocracy_government Bureaucracy_government }
+}
+king_ea_male = { #왕
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 46
+	top_liege = no
+	governments = { Autocracy_government Bureaucracy_government }
+}
+king_ea_female = { #왕후
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 46
+	top_liege = no
+	governments = { Autocracy_government Bureaucracy_government }
+}
+kingdom_ea = { #국
+	type = title
+	tier = kingdom
+	top_liege = no
+	priority = 46
+	governments = { Autocracy_government Bureaucracy_government }
+}
+
+Chinese_emperor = { #천자
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 150
+	top_liege = no
+	governments = { Autocracy_government Bureaucracy_government }
+
+Chinese_empress = { #황후
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 150
+	top_liege = no
+	governments = { Autocracy_government Bureaucracy_government }
+
+empire_Chinese = { #천자국
+	type = title
+	tier = empire
+	priority = 150
+	governments = { Autocracy_government Bureaucracy_government }
+}
+
+#Korea_emperor = { #천손/천제
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 150
+	top_liege = no
+	governments = { Autocracy_government Bureaucracy_government }
+
+#Korea_empress = { #황후
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 150
+	top_liege = no
+	governments = { Autocracy_government Bureaucracy_government }
+
+#empire_Korea = { #천손국
+	type = title
+	tier = empire
+	priority = 150
+	governments = { Autocracy_government Bureaucracy_government }
+}
