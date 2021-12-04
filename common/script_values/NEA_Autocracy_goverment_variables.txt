@@ -1,0 +1,15 @@
+﻿Autocracy_government_levies_default = 0.3
+Autocracy_government_levies_player = 0.25
+Autocracy_government_levies_opinion_scale_positive = 0.00305
+Autocracy_government_levies_opinion_scale_negative = 0.004
+Autocracy_government_levies_min_ca_1 = 0.05
+Autocracy_government_levies_min_ca_2 = 0.15
+Autocracy_government_levies_min_ca_3 = 0.25
+
+Autocracy_government_tax_default = 0.15
+Autocracy_government_tax_player = 0.1
+Autocracy_government_tax_opinion_scale_positive = 0.001
+Autocracy_government_tax_opinion_scale_negative = 0.003
+Autocracy_government_tax_min_ca_1 = 0.025
+Autocracy_government_tax_min_ca_2 = 0.05
+Autocracy_government_tax_min_ca_3 = 0.1

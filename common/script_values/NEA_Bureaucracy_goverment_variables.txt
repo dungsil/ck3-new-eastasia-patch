@@ -1,0 +1,15 @@
+﻿Bureaucracy_government_levies_default = 0.3
+Bureaucracy_government_levies_player = 0.25
+Bureaucracy_government_levies_opinion_scale_positive = 0.00305
+Bureaucracy_government_levies_opinion_scale_negative = 0.004
+Bureaucracy_government_levies_min_ca_1 = 0.05
+Bureaucracy_government_levies_min_ca_2 = 0.15
+Bureaucracy_government_levies_min_ca_3 = 0.25
+
+Bureaucracy_government_tax_default = 0.15
+Bureaucracy_government_tax_player = 0.1
+Bureaucracy_government_tax_opinion_scale_positive = 0.001
+Bureaucracy_government_tax_opinion_scale_negative = 0.003
+Bureaucracy_government_tax_min_ca_1 = 0.025
+Bureaucracy_government_tax_min_ca_2 = 0.05
+Bureaucracy_government_tax_min_ca_3 = 0.1
