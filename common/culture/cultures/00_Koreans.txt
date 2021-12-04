@@ -1,0 +1,852 @@
+﻿Koreans_group = { #한민족
+	
+	graphical_cultures = {
+		chinese_group_coa_gfx
+		indian_building_gfx
+		mongol_clothing_gfx
+		mongol_unit_gfx
+	}
+	
+	Goryeo = { #고려/高麗
+		
+		dynasty_name_first = yes
+		
+		color = { 238 25 10 }
+
+		dynasty_names = {
+			
+			"dynn_GjKim" #경주 김씨
+			"dynn_GhKim" #김해 김씨
+			"dynn_GsWang" #개성 왕씨
+			"dynn_GjLi" #경주 이씨
+			"dynn_JjLee" #전주 이씨
+			"dynn_Wang"
+			"dynn_Li"
+			"dynn_Bak"
+			"dynn_Jeong"
+			"dynn_Yoon"
+			"dynn_Choi"
+			"dynn_Ryu"
+			"dynn_Ryoo"
+			"dynn_Hong"
+			"dynn_Sin"
+			"dynn_Gwon"
+			"dynn_Jo"
+			"dynn_Han"
+			"dynn_O"
+			"dynn_Gang"
+			"dynn_Sim"
+			"dynn_Ahn"
+			"dynn_Heo"
+			"dynn_Jang"
+			"dynn_Min"
+			"dynn_Im"
+			"dynn_Nam"
+			"dynn_Seo"
+			"dynn_Gu"
+			"dynn_Seong"
+			"dynn_Song"
+			"dynn_Yoo"
+			"dynn_Won"
+			"dynn_Hwang"
+			"dynn_Yeo"
+			"dynn_Yang"
+			"dynn_Woo"
+			"dynn_Na"
+			"dynn_Ra"
+			"dynn_Son"
+			"dynn_Rho"
+			"dynn_Mok"
+			"dynn_Je"
+			"dynn_Bae"
+			"dynn_Maeng"
+			"dynn_Gwak"
+			"dynn_Byeon"
+			"dynn_Gyeong"
+			"dynn_Baek"
+			"dynn_Jeon"
+			"dynn_Um"
+			"dynn_Go"
+			"dynn_Moon"
+			"dynn_Ha"
+			"dynn_So"
+			"dynn_Gi"
+			"dynn_Ji"
+			"dynn_Jin"
+			"dynn_Geum"
+			"dynn_Gil"
+			"dynn_Yeon"
+			"dynn_Ju"
+			"dynn_Yeom"
+			"dynn_Ban"
+			"dynn_Bang"
+			"dynn_Gong"
+			"dynn_Seol"
+			"dynn_Tae"
+			"dynn_Tak"
+			"dynn_Ham"
+			"dynn_Bong"
+			"dynn_Ma"
+			"dynn_Pyo"
+			"dynn_Eun"
+			"dynn_Ye"
+			"dynn_Ohk"
+			"dynn_Seon"
+			"dynn_In"
+			"dynn_Seok"
+			"dynn_Du"
+			"dynn_Chu"
+			"dynn_Dan"
+			"dynn_Paeng"
+			"dynn_Cheon"
+			"dynn_Cha"
+			"dynn_Chae"
+			"dynn_Yong"
+			"dynn_Namgung"
+			"dynn_Hwangbo"
+			"dynn_Seonwoo"
+			"dynn_Buyeo"
+			"dynn_Dokgo"
+			"dynn_Sama"
+			"dynn_Jegal"
+			"dynn_Myeong"
+			"dynn_Seung"
+			"dynn_Yi"
+			"dynn_Lee"
+			"dynn_Pung"
+			"dynn_Ju"
+			"dynn_Heukchi"
+			"dynn_Sa"
+			"dynn_Sataek"
+			
+		}
+
+		male_names = {
+			Gisun Gibae Gijeong Giyeong Giheon Gichang Gipyeong Gihong Gyeongun Gyeongwon Gyeongseok Gyeongseung Gyeongtak Gyeongheum Gyeongbang Gyeongdeok Gyeongjin Gyengyoon Seongmo Seongse Seonggwan Seunggwan Byeonggwan Yeonggwan Jeonggwan Myeonggwan Pyeonggwan Daeseok Daeseon Daeseong Daehun Daegeun Daejeong Daebyeong Daemoon Deokjin Deokyeong Deokmoon Deokchang Deokse Deokgwang Deokhong Ryuseong Ryuheum Ryuhong Ryu Myeongjin Myeongdeok Myeongwon Myeongseup Myeongchan Myeongyun Bangwoo Banggwa Bangui Banggan Bangwon Bangyeon Bangbeon Bangseok Byeongjin Byeongdeuk Byeonggyu Byeongin Byeongseung Byeongyoon Byeongcheon Semin Semyeong Sehwang Sechang Segwang Sehyeong Sejeong Yongbae Yeongbae Gyeongbae Jinbae Deokbae Anhbae Chungbae Seongwon Seonggyu Seongdong Seonghun Seongheum Seongmoon Seongho Seongin Seongjin Yuchang Yuseok Yuseung Yugyeong Yuhun Inbong InHyeop Inheum Inhong Inchang Innam Ingyeong Inhwan Injeong Jongjun Jonghwan Jongtan Jongyeon Jongsan Jeongsin Jeongbang Jeongin Jeongmu Jeongsu Jeongwoon Jangyoon Jangpyeong Janghak Janggyeon Jangwan Jangung Chaedan Chaeyeol Chaeseon Chaemoon Chaehong Chaeam Chaeok Changseok Changsun Changyeong Changyong Changmo Changsu Changgeun Cheongyoon Cheonghun Cheongheum Cheongyeong Taepyeong Taehun Taehong Taehwan Taewan Taeun Taegyeong Taegu Taesik Pyeongmoon Pyeongseung Pyeongjin Honggyu Hongchang Hongsun Hongseon Hongseong Hongjin Hongtae Hongdeok Hongyoon Honggyun Honggyeong Hongmin Hongmoon Hojin Hojeong Hobyeong Hoban Hosang Hojun Homin Hageon Haseung Hagwon Hadong Hauk Hamyeong Gyeong Gwon Gi Gu Nam Dan Deok Wi Yeong Yoo Yun Yuk Moon Mu Byeong Byeok Baek Bin Seung San Seon Sin Sung Sang Ahn Wan Won Jeok Jin Jeong Jun Chang Chung Chim Chi Chik Tak Tang Tae Taek Teuk Pyeong Paeng Pung Heum Hoe Heon Hang Ham Hwak Hon Hyeong Hyeon Hyeok Hyu Hwan Hwang Han Hak Hap Heup
+		}
+		female_names = {
+			Gyepyeong Gyeyoon Gyehong Gyedan Gyesong Gahwi Garan Gaseon Gahyeon Gamyeong Nahye Nahyeon Nahwi Nahong Nain Nanhwi Nanhong Nanhwa Nanhye Nanmyeong Nanjeong Namhong Namhye Nameun Dain Dagyeong Dajeong Dahyeon Damae Danhwi Danhye Danju Dansin Danbin Dansong Deokchun Deokbun Deoksin Deokhye Deokseon Deoksaeng Deokgye Deokmin Deokran Deokahn Deokryu Deokrye Deokjeong Rhojin Ranhwa Ranhwi Ranhong Ranju Ranjo Ran Maehwa Maehong Maeyul Maesin Maehyeon Maeyeon Maeran Maengyun Banseok Bangwi Banseon Banhyang Sajin Saeun Sahyeon Seohye Seohong Seojin Seoyeon Seoyoon Seungan Seunghwi Seunghye Seungdeok Anhye Anhwi Anpyeong Anseong Anseung Ansong Anjin Yegyeong Yegwang Yewon Yewan Yesin Yeseon Aesin Aesun Aeseon Aehong Aejin Yejin Yeseong Yanghwa Yanghye Yangseon Yangsun Yangsin Yangjin Yangdan Yangran Yanghyeon Yangchun Yeonghwa Yeonghwi Yeongsin Yeonjin Yeongdan Yeongsun Yeongae Yeongrae Yeonghong Inhwa Inhye Inseon Yeonseon Yeonseong Yeonhong Yeonhwi Yeonhwa Yeongyeong Yeonjeong Yeonsin Yujin Yuhwa Yuhong Yuhyeon Yuhye Jihyeon Jihye Jihong Jihwi Jiseon Jiseong Jimin Jiin Jiye Jiyeong Jiyeon Jiyun Jina Jimyeong Jehwi Juhwi Juseon Juhong Juhwa Juyeon Juyeong Juyi Jugyeong Judan Johye Johwi Johwa Jomyeong Joye Joyeong Joyeon Jowan Josok Josun Jeonghwi Jeongyun Jeonghwa Jeongsun Jeongmi Jeongbun Jeongrye Jeongdan Jeongyeon Jeonghyeon Chaeyeon Chaehyeon Chaehwi Chaehong Chaejin Chaesin Chaesun Chaeyun Chaeyeong Chahwi Chahwa Chahong Chajin Chayeong Chayeon Tonghye Tongyeon Tonghyeon Tonghye Taehwi Taehwa Taehong Taejin Taeyeon Taeyeong Taeahn Taeran Taeeun Taeyun Taesun Taesin Pyeonghwi Pyeonhwa Pyeonghong Pyeonghye Pyeongin Pyeongchun Hyejin Hyeseon Hyein Hyedan Hyedeok Hyesun Hyehong Hyehwa Hyeran Hyerin Hyeyeon Hyeyeong Hyeseong Hyewon Hyeeun Hyesong Haein Haeseon Haeyun Haehyeon Haejin Haeseong Haedan Hwajin Hwain Hwasin Hwayang Hwawon Hwajeong Hwagyeong Hwayeon Hwayeong Hwayun Hwaae Hwasang Hwaseon Hwasun Hyojang Hyojin Hyoin Hyogyeong Hyohye Hyohong Hyoseon Hyoseong Hyojeong Hyorin
+		}
+		
+		dynasty_title_names = no
+
+		ethnicities = {
+			10 = asian
+		}
+	}
+	Goguryeo = { #고구려/高句麗
+		
+		dynasty_name_first = yes
+		
+		color = { 255 11 11 }
+
+		dynasty_names = {
+			
+			"dynn_Li"
+			"dynn_Bak"
+			"dynn_Jeong"
+			"dynn_Yoon"
+			"dynn_Choi"
+			"dynn_Ryu"
+			"dynn_Ryoo"
+			"dynn_Hong"
+			"dynn_Sin"
+			"dynn_Gwon"
+			"dynn_Jo"
+			"dynn_Han"
+			"dynn_O"
+			"dynn_Gang"
+			"dynn_Sim"
+			"dynn_Ahn"
+			"dynn_Jang"
+			"dynn_Min"
+			"dynn_Im"
+			"dynn_Nam"
+			"dynn_Gu"
+			"dynn_Seong"
+			"dynn_Song"
+			"dynn_Yoo"
+			"dynn_Won"
+			"dynn_Hwang"
+			"dynn_Yeo"
+			"dynn_Yang"
+			"dynn_Woo"
+			"dynn_Na"
+			"dynn_Ra"
+			"dynn_Son"
+			"dynn_Rho"
+			"dynn_Je"
+			"dynn_Bae"
+			"dynn_Maeng"
+			"dynn_Gwak"
+			"dynn_Byeon"
+			"dynn_Gyeong"
+			"dynn_Baek"
+			"dynn_Jeon"
+			"dynn_Um"
+			"dynn_Go"
+			"dynn_Moon"
+			"dynn_Ha"
+			"dynn_So"
+			"dynn_Gi"
+			"dynn_Ji"
+			"dynn_Jin"
+			"dynn_Geum"
+			"dynn_Gil"
+			"dynn_Yeon"
+			"dynn_Ju"
+			"dynn_Yeom"
+			"dynn_Ban"
+			"dynn_Bang"
+			"dynn_Gong"
+			"dynn_Seol"
+			"dynn_Tae"
+			"dynn_Tak"
+			"dynn_Ham"
+			"dynn_Bong"
+			"dynn_Ma"
+			"dynn_Pyo"
+			"dynn_Eun"
+			"dynn_Ye"
+			"dynn_Ohk"
+			"dynn_Seon"
+			"dynn_In"
+			"dynn_Seok"
+			"dynn_Du"
+			"dynn_Chu"
+			"dynn_Dan"
+			"dynn_Paeng"
+			"dynn_Cheon"
+			"dynn_Cha"
+			"dynn_Chae"
+			"dynn_Yong"
+			"dynn_Namgung"
+			"dynn_Hwangbo"
+			"dynn_Seonwoo"
+			"dynn_Buyeo"
+			"dynn_Dokgo"
+			"dynn_Sama"
+			"dynn_Jegal"
+			"dynn_Myeong"
+			"dynn_Seung"
+			"dynn_Yi"
+			"dynn_Lee"
+			"dynn_Pung"
+			"dynn_Ju"
+			"dynn_Eul"
+			"dynn_On"
+
+		}
+
+		male_names = {
+			Gubu Yiryeon Damdeok Georyeon Joda Naun Heungan Boyeon Pyeongseong Yangseong Daewon Samun Isik Daeyang Geonmu Namsaeng Namsan Namgeon Bojang Gaesomun Paso Eulbul Sayu Deoknam Deokmu Immu Gisun Gibae Gijeong Giyeong Giheon Gichang Gipyeong Gihong Gyeongun Gyeongwon Gyeongseok Gyeongseung Gyeongtak Gyeongheum Gyeongbang Gyeongdeok Gyeongjin Gyengyoon Seongmo Seongse Seonggwan Seunggwan Byeonggwan Yeonggwan Jeonggwan Myeonggwan Pyeonggwan Daeseok Daeseon Daeseong Daehun Daegeun Daejeong Daebyeong Daemoon Deokjin Deokyeong Deokmoon Deokchang Deokse Deokgwang Deokhong Ryuseong Ryuheum Ryuhong Ryu Myeongjin Myeongdeok Myeongwon Myeongseup Myeongchan Myeongyun Bangwoo Banggwa Bangui Banggan Bangwon Bangyeon Bangbeon Bangseok Byeongjin Byeongdeuk Byeonggyu Byeongin Byeongseung Byeongyoon Byeongcheon Semin Semyeong Sehwang Sechang Segwang Sehyeong Sejeong Yongbae Yeongbae Gyeongbae Jinbae Deokbae Anhbae Chungbae Seongwon Seonggyu Seongdong Seonghun Seongheum Seongmoon Seongho Seongin Seongjin Yuchang Yuseok Yuseung Yugyeong Yuhun Inbong InHyeop Inheum Inhong Inchang Innam Ingyeong Inhwan Injeong Jongjun Jonghwan Jongtan Jongyeon Jongsan Jeongsin Jeongbang Jeongin Jeongmu Jeongsu Jeongwoon Jangyoon Jangpyeong Janghak Janggyeon Jangwan Jangung Chaedan Chaeyeol Chaeseon Chaemoon Chaehong Chaeam Chaeok Changseok Changsun Changyeong Changyong Changmo Changsu Changgeun Cheongyoon Cheonghun Cheongheum Cheongyeong Taepyeong Taehun Taehong Taehwan Taewan Taeun Taegyeong Taegu Taesik Pyeongmoon Pyeongseung Pyeongjin Honggyu Hongchang Hongsun Hongseon Hongseong Hongjin Hongtae Hongdeok Hongyoon Honggyun Honggyeong Hongmin Hongmoon Hojin Hojeong Hobyeong Hoban Hosang Hojun Homin Hageon Haseung Hagwon Hadong Hauk Hamyeong Gyeong Gwon Gi Gu Nam Dan Deok Wi Yeong Yoo Yun Yuk Moon Mu Byeong Byeok Baek Bin Seung San Seon Sin Sung Sang Ahn Wan Won Jeok Jin Jeong Jun Chang Chung Chim Chi Chik Tak Tang Tae Taek Teuk Pyeong Paeng Pung Heum Hoe Heon Hang Ham Hwak Hon Hyeong Hyeon Hyeok Hyu Hwan Hwang Han Hak Hap Heup
+		}
+		female_names = {
+			Gyepyeong Gyeyoon Gyehong Gyedan Gyesong Gahwi Garan Gaseon Gahyeon Gamyeong Nahye Nahyeon Nahwi Nahong Nain Nanhwi Nanhong Nanhwa Nanhye Nanmyeong Nanjeong Namhong Namhye Nameun Dain Dagyeong Dajeong Dahyeon Damae Danhwi Danhye Danju Dansin Danbin Dansong Deokchun Deokbun Deoksin Deokhye Deokseon Deoksaeng Deokgye Deokmin Deokran Deokahn Deokryu Deokrye Deokjeong Rhojin Ranhwa Ranhwi Ranhong Ranju Ranjo Ran Maehwa Maehong Maeyul Maesin Maehyeon Maeyeon Maeran Maengyun Banseok Bangwi Banseon Banhyang Sajin Saeun Sahyeon Seohye Seohong Seojin Seoyeon Seoyoon Seungan Seunghwi Seunghye Seungdeok Anhye Anhwi Anpyeong Anseong Anseung Ansong Anjin Yegyeong Yegwang Yewon Yewan Yesin Yeseon Aesin Aesun Aeseon Aehong Aejin Yejin Yeseong Yanghwa Yanghye Yangseon Yangsun Yangsin Yangjin Yangdan Yangran Yanghyeon Yangchun Yeonghwa Yeonghwi Yeongsin Yeonjin Yeongdan Yeongsun Yeongae Yeongrae Yeonghong Inhwa Inhye Inseon Yeonseon Yeonseong Yeonhong Yeonhwi Yeonhwa Yeongyeong Yeonjeong Yeonsin Yujin Yuhwa Yuhong Yuhyeon Yuhye Jihyeon Jihye Jihong Jihwi Jiseon Jiseong Jimin Jiin Jiye Jiyeong Jiyeon Jiyun Jina Jimyeong Jehwi Juhwi Juseon Juhong Juhwa Juyeon Juyeong Juyi Jugyeong Judan Johye Johwi Johwa Jomyeong Joye Joyeong Joyeon Jowan Josok Josun Jeonghwi Jeongyun Jeonghwa Jeongsun Jeongmi Jeongbun Jeongrye Jeongdan Jeongyeon Jeonghyeon Chaeyeon Chaehyeon Chaehwi Chaehong Chaejin Chaesin Chaesun Chaeyun Chaeyeong Chahwi Chahwa Chahong Chajin Chayeong Chayeon Tonghye Tongyeon Tonghyeon Tonghye Taehwi Taehwa Taehong Taejin Taeyeon Taeyeong Taeahn Taeran Taeeun Taeyun Taesun Taesin Pyeonghwi Pyeonhwa Pyeonghong Pyeonghye Pyeongin Pyeongchun Hyejin Hyeseon Hyein Hyedan Hyedeok Hyesun Hyehong Hyehwa Hyeran Hyerin Hyeyeon Hyeyeong Hyeseong Hyewon Hyeeun Hyesong Haein Haeseon Haeyun Haehyeon Haejin Haeseong Haedan Hwajin Hwain Hwasin Hwayang Hwawon Hwajeong Hwagyeong Hwayeon Hwayeong Hwayun Hwaae Hwasang Hwaseon Hwasun Hyojang Hyojin Hyoin Hyogyeong Hyohye Hyohong Hyoseon Hyoseong Hyojeong Hyorin
+		}
+		
+		dynasty_title_names = no
+
+		ethnicities = {
+			10 = asian
+		}
+	}
+
+	Baekje = { #백제/百濟
+		
+		dynasty_name_first = yes
+		
+		color = { 255 225 5 }
+
+
+		dynasty_names = {
+			
+			"dynn_Li"
+			"dynn_Bak"
+			"dynn_Jeong"
+			"dynn_Yoon"
+			"dynn_Choi"
+			"dynn_Ryu"
+			"dynn_Ryoo"
+			"dynn_Hong"
+			"dynn_Sin"
+			"dynn_Gwon"
+			"dynn_Jo"
+			"dynn_Han"
+			"dynn_O"
+			"dynn_Gang"
+			"dynn_Sim"
+			"dynn_Ahn"
+			"dynn_Heo"
+			"dynn_Jang"
+			"dynn_Min"
+			"dynn_Im"
+			"dynn_Nam"
+			"dynn_Seo"
+			"dynn_Gu"
+			"dynn_Seong"
+			"dynn_Song"
+			"dynn_Yoo"
+			"dynn_Won"
+			"dynn_Yeo"
+			"dynn_Yang"
+			"dynn_Woo"
+			"dynn_Na"
+			"dynn_Ra"
+			"dynn_Son"
+			"dynn_Rho"
+			"dynn_Mok"
+			"dynn_Je"
+			"dynn_Bae"
+			"dynn_Maeng"
+			"dynn_Gwak"
+			"dynn_Byeon"
+			"dynn_Gyeong"
+			"dynn_Baek"
+			"dynn_Jeon"
+			"dynn_Um"
+			"dynn_Moon"
+			"dynn_Ha"
+			"dynn_So"
+			"dynn_Gi"
+			"dynn_Ji"
+			"dynn_Jin"
+			"dynn_Geum"
+			"dynn_Gil"
+			"dynn_Yeon"
+			"dynn_Ju"
+			"dynn_Yeom"
+			"dynn_Ban"
+			"dynn_Bang"
+			"dynn_Gong"
+			"dynn_Seol"
+			"dynn_Tae"
+			"dynn_Tak"
+			"dynn_Ham"
+			"dynn_Bong"
+			"dynn_Ma"
+			"dynn_Pyo"
+			"dynn_Eun"
+			"dynn_Ye"
+			"dynn_Ohk"
+			"dynn_Seon"
+			"dynn_In"
+			"dynn_Seok"
+			"dynn_Du"
+			"dynn_Chu"
+			"dynn_Dan"
+			"dynn_Paeng"
+			"dynn_Cheon"
+			"dynn_Cha"
+			"dynn_Chae"
+			"dynn_Yong"
+			"dynn_Namgung"
+			"dynn_Seonwoo"
+			"dynn_Buyeo"
+			"dynn_Dokgo"
+			"dynn_Myeong"
+			"dynn_Seung"
+			"dynn_Yi"
+			"dynn_Lee"
+			"dynn_Pung"
+			"dynn_Ju"
+			"dynn_Heukchi"
+			"dynn_Sa"
+			"dynn_Sataek"
+		}
+
+		male_names = {
+			Guisin Biyu Gyeongsa Gaero Munju Samgeun Modae Sama Myeong Gye Gwan Jang Uija Gisun Gibae Gijeong Giyeong Giheon Gichang Gipyeong Gihong Gyeongun Gyeongwon Gyeongseok Gyeongseung Gyeongtak Gyeongheum Gyeongbang Gyeongdeok Gyeongjin Gyengyoon Seongmo Seongse Seonggwan Seunggwan Byeonggwan Yeonggwan Jeonggwan Myeonggwan Pyeonggwan Daeseok Daeseon Daeseong Daehun Daegeun Daejeong Daebyeong Daemoon Deokjin Deokyeong Deokmoon Deokchang Deokse Deokgwang Deokhong Ryuseong Ryuheum Ryuhong Ryu Myeongjin Myeongdeok Myeongwon Myeongseup Myeongchan Myeongyun Bangwoo Banggwa Bangui Banggan Bangwon Bangyeon Bangbeon Bangseok Byeongjin Byeongdeuk Byeonggyu Byeongin Byeongseung Byeongyoon Byeongcheon Semin Semyeong Sehwang Sechang Segwang Sehyeong Sejeong Yongbae Yeongbae Gyeongbae Jinbae Deokbae Anhbae Chungbae Seongwon Seonggyu Seongdong Seonghun Seongheum Seongmoon Seongho Seongin Seongjin Yuchang Yuseok Yuseung Yugyeong Yuhun Inbong InHyeop Inheum Inhong Inchang Innam Ingyeong Inhwan Injeong Jongjun Jonghwan Jongtan Jongyeon Jongsan Jeongsin Jeongbang Jeongin Jeongmu Jeongsu Jeongwoon Jangyoon Jangpyeong Janghak Janggyeon Jangwan Jangung Chaedan Chaeyeol Chaeseon Chaemoon Chaehong Chaeam Chaeok Changseok Changsun Changyeong Changyong Changmo Changsu Changgeun Cheongyoon Cheonghun Cheongheum Cheongyeong Taepyeong Taehun Taehong Taehwan Taewan Taeun Taegyeong Taegu Taesik Pyeongmoon Pyeongseung Pyeongjin Honggyu Hongchang Hongsun Hongseon Hongseong Hongjin Hongtae Hongdeok Hongyoon Honggyun Honggyeong Hongmin Hongmoon Hojin Hojeong Hobyeong Hoban Hosang Hojun Homin Hageon Haseung Hagwon Hadong Hauk Hamyeong Gyeong Gwon Gi Gu Nam Dan Deok Wi Yeong Yoo Yun Yuk Moon Mu Byeong Byeok Baek Bin Seung San Seon Sin Sung Sang Ahn Wan Won Jeok Jin Jeong Jun Chang Chung Chim Chi Chik Tak Tang Tae Taek Teuk Pyeong Paeng Pung Heum Hoe Heon Hang Ham Hwak Hon Hyeong Hyeon Hyeok Hyu Hwan Hwang Han Hak Hap Heup
+		}
+		female_names = {
+			Gyepyeong Gyeyoon Gyehong Gyedan Gyesong Gahwi Garan Gaseon Gahyeon Gamyeong Nahye Nahyeon Nahwi Nahong Nain Nanhwi Nanhong Nanhwa Nanhye Nanmyeong Nanjeong Namhong Namhye Nameun Dain Dagyeong Dajeong Dahyeon Damae Danhwi Danhye Danju Dansin Danbin Dansong Deokchun Deokbun Deoksin Deokhye Deokseon Deoksaeng Deokgye Deokmin Deokran Deokahn Deokryu Deokrye Deokjeong Rhojin Ranhwa Ranhwi Ranhong Ranju Ranjo Ran Maehwa Maehong Maeyul Maesin Maehyeon Maeyeon Maeran Maengyun Banseok Bangwi Banseon Banhyang Sajin Saeun Sahyeon Seohye Seohong Seojin Seoyeon Seoyoon Seungan Seunghwi Seunghye Seungdeok Anhye Anhwi Anpyeong Anseong Anseung Ansong Anjin Yegyeong Yegwang Yewon Yewan Yesin Yeseon Aesin Aesun Aeseon Aehong Aejin Yejin Yeseong Yanghwa Yanghye Yangseon Yangsun Yangsin Yangjin Yangdan Yangran Yanghyeon Yangchun Yeonghwa Yeonghwi Yeongsin Yeonjin Yeongdan Yeongsun Yeongae Yeongrae Yeonghong Inhwa Inhye Inseon Yeonseon Yeonseong Yeonhong Yeonhwi Yeonhwa Yeongyeong Yeonjeong Yeonsin Yujin Yuhwa Yuhong Yuhyeon Yuhye Jihyeon Jihye Jihong Jihwi Jiseon Jiseong Jimin Jiin Jiye Jiyeong Jiyeon Jiyun Jina Jimyeong Jehwi Juhwi Juseon Juhong Juhwa Juyeon Juyeong Juyi Jugyeong Judan Johye Johwi Johwa Jomyeong Joye Joyeong Joyeon Jowan Josok Josun Jeonghwi Jeongyun Jeonghwa Jeongsun Jeongmi Jeongbun Jeongrye Jeongdan Jeongyeon Jeonghyeon Chaeyeon Chaehyeon Chaehwi Chaehong Chaejin Chaesin Chaesun Chaeyun Chaeyeong Chahwi Chahwa Chahong Chajin Chayeong Chayeon Tonghye Tongyeon Tonghyeon Taehwi Taehwa Taehong Taejin Taeyeon Taeyeong Taeahn Taeran Taeeun Taeyun Taesun Taesin Pyeonghwi Pyeonhwa Pyeonghong Pyeonghye Pyeongin Pyeongchun Hyejin Hyeseon Hyein Hyedan Hyedeok Hyesun Hyehong Hyehwa Hyeran Hyerin Hyeyeon Hyeyeong Hyeseong Hyewon Hyeeun Hyesong Haein Haeseon Haeyun Haehyeon Haejin Haeseong Haedan Hwajin Hwain Hwasin Hwayang Hwawon Hwajeong Hwagyeong Hwayeon Hwayeong Hwayun Hwaae Hwasang Hwaseon Hwasun Hyojang Hyojin Hyoin Hyogyeong Hyohye Hyohong Hyoseon Hyoseong Hyojeong Hyorin
+		}
+		
+		dynasty_title_names = no
+
+		ethnicities = {
+			10 = asian
+		}
+	}
+	Silla = { #신라/新羅
+		
+		dynasty_name_first = yes
+		
+		color = { 5 90 255 }
+
+
+
+		dynasty_names = {
+			
+			"dynn_GjKim" #경주 김씨
+			"dynn_GhKim" #김해 김씨
+			"dynn_GjLi" #경주 이씨
+			"dynn_Li"
+			"dynn_Bak"
+			"dynn_Jeong"
+			"dynn_Yoon"
+			"dynn_Choi"
+			"dynn_Ryu"
+			"dynn_Ryoo"
+			"dynn_Hong"
+			"dynn_Sin"
+			"dynn_Gwon"
+			"dynn_Jo"
+			"dynn_Han"
+			"dynn_O"
+			"dynn_Gang"
+			"dynn_Sim"
+			"dynn_Ahn"
+			"dynn_Heo"
+			"dynn_Jang"
+			"dynn_Min"
+			"dynn_Im"
+			"dynn_Nam"
+			"dynn_Seo"
+			"dynn_Gu"
+			"dynn_Seong"
+			"dynn_Song"
+			"dynn_Yoo"
+			"dynn_Won"
+			"dynn_Yeo"
+			"dynn_Yang"
+			"dynn_Woo"
+			"dynn_Na"
+			"dynn_Ra"
+			"dynn_Son"
+			"dynn_Rho"
+			"dynn_Mok"
+			"dynn_Je"
+			"dynn_Bae"
+			"dynn_Maeng"
+			"dynn_Gwak"
+			"dynn_Byeon"
+			"dynn_Gyeong"
+			"dynn_Baek"
+			"dynn_Jeon"
+			"dynn_Um"
+			"dynn_Go"
+			"dynn_Moon"
+			"dynn_Ha"
+			"dynn_So"
+			"dynn_Gi"
+			"dynn_Ji"
+			"dynn_Jin"
+			"dynn_Geum"
+			"dynn_Gil"
+			"dynn_Yeon"
+			"dynn_Ju"
+			"dynn_Yeom"
+			"dynn_Ban"
+			"dynn_Bang"
+			"dynn_Gong"
+			"dynn_Seol"
+			"dynn_Tae"
+			"dynn_Tak"
+			"dynn_Ham"
+			"dynn_Bong"
+			"dynn_Ma"
+			"dynn_Pyo"
+			"dynn_Eun"
+			"dynn_Ye"
+			"dynn_Ohk"
+			"dynn_Seon"
+			"dynn_In"
+			"dynn_Seok"
+			"dynn_Du"
+			"dynn_Chu"
+			"dynn_Dan"
+			"dynn_Paeng"
+			"dynn_Cheon"
+			"dynn_Cha"
+			"dynn_Chae"
+			"dynn_Yong"
+			"dynn_Namgung"
+			"dynn_Hwangbo"
+			"dynn_Seonwoo"
+			"dynn_Dokgo"
+			"dynn_Myeong"
+			"dynn_Seung"
+			"dynn_Yi"
+			"dynn_Lee"
+			"dynn_Pung"
+			"dynn_Ju"
+		}
+
+		male_names = {
+			Gisun Gibae Gijeong Giyeong Giheon Gichang Gipyeong Gihong Gyeongun Gyeongwon Gyeongseok Gyeongseung Gyeongtak Gyeongheum Gyeongbang Gyeongdeok Gyeongjin Gyengyoon Seongmo Seongse Seonggwan Seunggwan Byeonggwan Yeonggwan Jeonggwan Myeonggwan Pyeonggwan Daeseok Daeseon Daeseong Daehun Daegeun Daejeong Daebyeong Daemoon Deokjin Deokyeong Deokmoon Deokchang Deokse Deokgwang Deokhong Ryuseong Ryuheum Ryuhong Ryu Myeongjin Myeongdeok Myeongwon Myeongseup Myeongchan Myeongyun Bangwoo Banggwa Bangui Banggan Bangwon Bangyeon Bangbeon Bangseok Byeongjin Byeongdeuk Byeonggyu Byeongin Byeongseung Byeongyoon Byeongcheon Semin Semyeong Sehwang Sechang Segwang Sehyeong Sejeong Yongbae Yeongbae Gyeongbae Jinbae Deokbae Anhbae Chungbae Seongwon Seonggyu Seongdong Seonghun Seongheum Seongmoon Seongho Seongin Seongjin Yuchang Yuseok Yuseung Yugyeong Yuhun Inbong InHyeop Inheum Inhong Inchang Innam Ingyeong Inhwan Injeong Jongjun Jonghwan Jongtan Jongyeon Jongsan Jeongsin Jeongbang Jeongin Jeongmu Jeongsu Jeongwoon Jangyoon Jangpyeong Janghak Janggyeon Jangwan Jangung Chaedan Chaeyeol Chaeseon Chaemoon Chaehong Chaeam Chaeok Changseok Changsun Changyeong Changyong Changmo Changsu Changgeun Cheongyoon Cheonghun Cheongheum Cheongyeong Taepyeong Taehun Taehong Taehwan Taewan Taeun Taegyeong Taegu Taesik Pyeongmoon Pyeongseung Pyeongjin Honggyu Hongchang Hongsun Hongseon Hongseong Hongjin Hongtae Hongdeok Hongyoon Honggyun Honggyeong Hongmin Hongmoon Hojin Hojeong Hobyeong Hoban Hosang Hojun Homin Hageon Haseung Hagwon Hadong Hauk Hamyeong Gyeong Gwon Gi Gu Nam Dan Deok Wi Yeong Yoo Yun Yuk Moon Mu Byeong Byeok Baek Bin Seung San Seon Sin Sung Sang Ahn Wan Won Jeok Jin Jeong Jun Chang Chung Chim Chi Chik Tak Tang Tae Taek Teuk Pyeong Paeng Pung Heum Hoe Heon Hang Ham Hwak Hon Hyeong Hyeon Hyeok Hyu Hwan Hwang Han Hak Hap Heup
+		}
+		female_names = {
+			Gyepyeong Gyeyoon Gyehong Gyedan Gyesong Gahwi Garan Gaseon Gahyeon Gamyeong Nahye Nahyeon Nahwi Nahong Nain Nanhwi Nanhong Nanhwa Nanhye Nanmyeong Nanjeong Namhong Namhye Nameun Dain Dagyeong Dajeong Dahyeon Damae Danhwi Danhye Danju Dansin Danbin Dansong Deokchun Deokbun Deoksin Deokhye Deokseon Deoksaeng Deokgye Deokmin Deokran Deokahn Deokryu Deokrye Deokjeong Rhojin Ranhwa Ranhwi Ranhong Ranju Ranjo Ran Maehwa Maehong Maeyul Maesin Maehyeon Maeyeon Maeran Maengyun Banseok Bangwi Banseon Banhyang Sajin Saeun Sahyeon Seohye Seohong Seojin Seoyeon Seoyoon Seungan Seunghwi Seunghye Seungdeok Anhye Anhwi Anpyeong Anseong Anseung Ansong Anjin Yegyeong Yegwang Yewon Yewan Yesin Yeseon Aesin Aesun Aeseon Aehong Aejin Yejin Yeseong Yanghwa Yanghye Yangseon Yangsun Yangsin Yangjin Yangdan Yangran Yanghyeon Yangchun Yeonghwa Yeonghwi Yeongsin Yeonjin Yeongdan Yeongsun Yeongae Yeongrae Yeonghong Inhwa Inhye Inseon Yeonseon Yeonseong Yeonhong Yeonhwi Yeonhwa Yeongyeong Yeonjeong Yeonsin Yujin Yuhwa Yuhong Yuhyeon Yuhye Jihyeon Jihye Jihong Jihwi Jiseon Jiseong Jimin Jiin Jiye Jiyeong Jiyeon Jiyun Jina Jimyeong Jehwi Juhwi Juseon Juhong Juhwa Juyeon Juyeong Juyi Jugyeong Judan Johye Johwi Johwa Jomyeong Joye Joyeong Joyeon Jowan Josok Josun Jeonghwi Jeongyun Jeonghwa Jeongsun Jeongmi Jeongbun Jeongrye Jeongdan Jeongyeon Jeonghyeon Chaeyeon Chaehyeon Chaehwi Chaehong Chaejin Chaesin Chaesun Chaeyun Chaeyeong Chahwi Chahwa Chahong Chajin Chayeong Chayeon Tonghye Tongyeon Tonghyeon Tonghye Taehwi Taehwa Taehong Taejin Taeyeon Taeyeong Taeahn Taeran Taeeun Taeyun Taesun Taesin Pyeonghwi Pyeonhwa Pyeonghong Pyeonghye Pyeongin Pyeongchun Hyejin Hyeseon Hyein Hyedan Hyedeok Hyesun Hyehong Hyehwa Hyeran Hyerin Hyeyeon Hyeyeong Hyeseong Hyewon Hyeeun Hyesong Haein Haeseon Haeyun Haehyeon Haejin Haeseong Haedan Hwajin Hwain Hwasin Hwayang Hwawon Hwajeong Hwagyeong Hwayeon Hwayeong Hwayun Hwaae Hwasang Hwaseon Hwasun Hyojang Hyojin Hyoin Hyogyeong Hyohye Hyohong Hyoseon Hyoseong Hyojeong Hyorin
+		}
+		
+		dynasty_title_names = no
+
+		ethnicities = {
+			10 = asian
+		}
+	}
+
+	Yemaek = { #예맥/yemo/濊貊
+		
+		dynasty_name_first = yes
+		
+		color = { 92 209 229 }
+
+
+		dynasty_names = {
+			
+			"dynn_Kim"
+			"dynn_Li"
+			"dynn_Bak"
+			"dynn_Jeong"
+			"dynn_Yoon"
+			"dynn_Choi"
+			"dynn_Ryu"
+			"dynn_Ryoo"
+			"dynn_Hong"
+			"dynn_Sin"
+			"dynn_Gwon"
+			"dynn_Jo"
+			"dynn_Han"
+			"dynn_O"
+			"dynn_Gang"
+			"dynn_Sim"
+			"dynn_Ahn"
+			"dynn_Heo"
+			"dynn_Jang"
+			"dynn_Min"
+			"dynn_Im"
+			"dynn_Nam"
+			"dynn_Seo"
+			"dynn_Gu"
+			"dynn_Seong"
+			"dynn_Song"
+			"dynn_Yoo"
+			"dynn_Won"
+			"dynn_Hwang"
+			"dynn_Yeo"
+			"dynn_Yang"
+			"dynn_Woo"
+			"dynn_Na"
+			"dynn_Ra"
+			"dynn_Son"
+			"dynn_Rho"
+			"dynn_Mok"
+			"dynn_Je"
+			"dynn_Bae"
+			"dynn_Maeng"
+			"dynn_Gwak"
+			"dynn_Byeon"
+			"dynn_Gyeong"
+			"dynn_Baek"
+			"dynn_Jeon"
+			"dynn_Um"
+			"dynn_Go"
+			"dynn_Moon"
+			"dynn_Ha"
+			"dynn_So"
+			"dynn_Gi"
+			"dynn_Ji"
+			"dynn_Jin"
+			"dynn_Geum"
+			"dynn_Gil"
+			"dynn_Yeon"
+			"dynn_Ju"
+			"dynn_Yeom"
+			"dynn_Ban"
+			"dynn_Bang"
+			"dynn_Gong"
+			"dynn_Seol"
+			"dynn_Tae"
+			"dynn_Tak"
+			"dynn_Ham"
+			"dynn_Bong"
+			"dynn_Ma"
+			"dynn_Pyo"
+			"dynn_Eun"
+			"dynn_Ye"
+			"dynn_Ohk"
+			"dynn_Seon"
+			"dynn_In"
+			"dynn_Seok"
+			"dynn_Du"
+			"dynn_Chu"
+			"dynn_Dan"
+			"dynn_Paeng"
+			"dynn_Cheon"
+			"dynn_Cha"
+			"dynn_Chae"
+			"dynn_Yong"
+			"dynn_Namgung"
+			"dynn_Hwangbo"
+			"dynn_Seonwoo"
+			"dynn_Buyeo"
+			"dynn_Dokgo"
+			"dynn_Sama"
+			"dynn_Jegal"
+			"dynn_Myeong"
+			"dynn_Seung"
+			"dynn_Yi"
+			"dynn_Lee"
+			"dynn_Pung"
+			"dynn_Ju"
+			
+		}
+
+		male_names = {
+			Gisun Gibae Gijeong Giyeong Giheon Gichang Gipyeong Gihong Gyeongun Gyeongwon Gyeongseok Gyeongseung Gyeongtak Gyeongheum Gyeongbang Gyeongdeok Gyeongjin Gyengyoon Seongmo Seongse Seonggwan Seunggwan Byeonggwan Yeonggwan Jeonggwan Myeonggwan Pyeonggwan Daeseok Daeseon Daeseong Daehun Daegeun Daejeong Daebyeong Daemoon Deokjin Deokyeong Deokmoon Deokchang Deokse Deokgwang Deokhong Ryuseong Ryuheum Ryuhong Ryu Myeongjin Myeongdeok Myeongwon Myeongseup Myeongchan Myeongyun Bangwoo Banggwa Bangui Banggan Bangwon Bangyeon Bangbeon Bangseok Byeongjin Byeongdeuk Byeonggyu Byeongin Byeongseung Byeongyoon Byeongcheon Semin Semyeong Sehwang Sechang Segwang Sehyeong Sejeong Yongbae Yeongbae Gyeongbae Jinbae Deokbae Anhbae Chungbae Seongwon Seonggyu Seongdong Seonghun Seongheum Seongmoon Seongho Seongin Seongjin Yuchang Yuseok Yuseung Yugyeong Yuhun Inbong InHyeop Inheum Inhong Inchang Innam Ingyeong Inhwan Injeong Jongjun Jonghwan Jongtan Jongyeon Jongsan Jeongsin Jeongbang Jeongin Jeongmu Jeongsu Jeongwoon Jangyoon Jangpyeong Janghak Janggyeon Jangwan Jangung Chaedan Chaeyeol Chaeseon Chaemoon Chaehong Chaeam Chaeok Changseok Changsun Changyeong Changyong Changmo Changsu Changgeun Cheongyoon Cheonghun Cheongheum Cheongyeong Taepyeong Taehun Taehong Taehwan Taewan Taeun Taegyeong Taegu Taesik Pyeongmoon Pyeongseung Pyeongjin Honggyu Hongchang Hongsun Hongseon Hongseong Hongjin Hongtae Hongdeok Hongyoon Honggyun Honggyeong Hongmin Hongmoon Hojin Hojeong Hobyeong Hoban Hosang Hojun Homin Hageon Haseung Hagwon Hadong Hauk Hamyeong Gyeong Gwon Gi Gu Nam Dan Deok Wi Yeong Yoo Yun Yuk Moon Mu Byeong Byeok Baek Bin Seung San Seon Sin Sung Sang Ahn Wan Won Jeok Jin Jeong Jun Chang Chung Chim Chi Chik Tak Tang Tae Taek Teuk Pyeong Paeng Pung Heum Hoe Heon Hang Ham Hwak Hon Hyeong Hyeon Hyeok Hyu Hwan Hwang Han Hak Hap Heup
+		}
+		female_names = {
+			Gyepyeong Gyeyoon Gyehong Gyedan Gyesong Gahwi Garan Gaseon Gahyeon Gamyeong Nahye Nahyeon Nahwi Nahong Nain Nanhwi Nanhong Nanhwa Nanhye Nanmyeong Nanjeong Namhong Namhye Nameun Dain Dagyeong Dajeong Dahyeon Damae Danhwi Danhye Danju Dansin Danbin Dansong Deokchun Deokbun Deoksin Deokhye Deokseon Deoksaeng Deokgye Deokmin Deokran Deokahn Deokryu Deokrye Deokjeong Rhojin Ranhwa Ranhwi Ranhong Ranju Ranjo Ran Maehwa Maehong Maeyul Maesin Maehyeon Maeyeon Maeran Maengyun Banseok Bangwi Banseon Banhyang Sajin Saeun Sahyeon Seohye Seohong Seojin Seoyeon Seoyoon Seungan Seunghwi Seunghye Seungdeok Anhye Anhwi Anpyeong Anseong Anseung Ansong Anjin Yegyeong Yegwang Yewon Yewan Yesin Yeseon Aesin Aesun Aeseon Aehong Aejin Yejin Yeseong Yanghwa Yanghye Yangseon Yangsun Yangsin Yangjin Yangdan Yangran Yanghyeon Yangchun Yeonghwa Yeonghwi Yeongsin Yeonjin Yeongdan Yeongsun Yeongae Yeongrae Yeonghong Inhwa Inhye Inseon Yeonseon Yeonseong Yeonhong Yeonhwi Yeonhwa Yeongyeong Yeonjeong Yeonsin Yujin Yuhwa Yuhong Yuhyeon Yuhye Jihyeon Jihye Jihong Jihwi Jiseon Jiseong Jimin Jiin Jiye Jiyeong Jiyeon Jiyun Jina Jimyeong Jehwi Juhwi Juseon Juhong Juhwa Juyeon Juyeong Juyi Jugyeong Judan Johye Johwi Johwa Jomyeong Joye Joyeong Joyeon Jowan Josok Josun Jeonghwi Jeongyun Jeonghwa Jeongsun Jeongmi Jeongbun Jeongrye Jeongdan Jeongyeon Jeonghyeon Chaeyeon Chaehyeon Chaehwi Chaehong Chaejin Chaesin Chaesun Chaeyun Chaeyeong Chahwi Chahwa Chahong Chajin Chayeong Chayeon Tonghye Tongyeon Tonghyeon Tonghye Taehwi Taehwa Taehong Taejin Taeyeon Taeyeong Taeahn Taeran Taeeun Taeyun Taesun Taesin Pyeonghwi Pyeonhwa Pyeonghong Pyeonghye Pyeongin Pyeongchun Hyejin Hyeseon Hyein Hyedan Hyedeok Hyesun Hyehong Hyehwa Hyeran Hyerin Hyeyeon Hyeyeong Hyeseong Hyewon Hyeeun Hyesong Haein Haeseon Haeyun Haehyeon Haejin Haeseong Haedan Hwajin Hwain Hwasin Hwayang Hwawon Hwajeong Hwagyeong Hwayeon Hwayeong Hwayun Hwaae Hwasang Hwaseon Hwasun Hyojang Hyojin Hyoin Hyogyeong Hyohye Hyohong Hyoseon Hyoseong Hyojeong Hyorin
+		}
+		
+		dynasty_title_names = no
+
+		ethnicities = {
+			10 = asian
+		}
+	}
+	Gaya = { #가야/伽倻
+		
+		dynasty_name_first = yes
+		
+		color = { 255 178 245 }
+
+
+
+		dynasty_names = {
+			
+			"dynn_GhKim" #김해 김씨
+			"dynn_Li"
+			"dynn_Bak"
+			"dynn_Jeong"
+			"dynn_Yoon"
+			"dynn_Choi"
+			"dynn_Ryu"
+			"dynn_Ryoo"
+			"dynn_Hong"
+			"dynn_Sin"
+			"dynn_Gwon"
+			"dynn_Jo"
+			"dynn_Han"
+			"dynn_O"
+			"dynn_Gang"
+			"dynn_Sim"
+			"dynn_Ahn"
+			"dynn_Heo"
+			"dynn_Jang"
+			"dynn_Min"
+			"dynn_Im"
+			"dynn_Nam"
+			"dynn_Seo"
+			"dynn_Gu"
+			"dynn_Seong"
+			"dynn_Song"
+			"dynn_Yoo"
+			"dynn_Won"
+			"dynn_Hwang"
+			"dynn_Yeo"
+			"dynn_Yang"
+			"dynn_Woo"
+			"dynn_Na"
+			"dynn_Ra"
+			"dynn_Son"
+			"dynn_Rho"
+			"dynn_Mok"
+			"dynn_Je"
+			"dynn_Bae"
+			"dynn_Maeng"
+			"dynn_Gwak"
+			"dynn_Byeon"
+			"dynn_Gyeong"
+			"dynn_Baek"
+			"dynn_Jeon"
+			"dynn_Um"
+			"dynn_Go"
+			"dynn_Moon"
+			"dynn_Ha"
+			"dynn_So"
+			"dynn_Gi"
+			"dynn_Ji"
+			"dynn_Jin"
+			"dynn_Geum"
+			"dynn_Gil"
+			"dynn_Yeon"
+			"dynn_Ju"
+			"dynn_Yeom"
+			"dynn_Ban"
+			"dynn_Bang"
+			"dynn_Gong"
+			"dynn_Seol"
+			"dynn_Tae"
+			"dynn_Tak"
+			"dynn_Ham"
+			"dynn_Bong"
+			"dynn_Ma"
+			"dynn_Pyo"
+			"dynn_Eun"
+			"dynn_Ye"
+			"dynn_Ohk"
+			"dynn_Seon"
+			"dynn_In"
+			"dynn_Seok"
+			"dynn_Du"
+			"dynn_Chu"
+			"dynn_Dan"
+			"dynn_Paeng"
+			"dynn_Cheon"
+			"dynn_Cha"
+			"dynn_Chae"
+			"dynn_Yong"
+			"dynn_Namgung"
+			"dynn_Hwangbo"
+			"dynn_Seonwoo"
+			"dynn_Buyeo"
+			"dynn_Dokgo"
+			"dynn_Sama"
+			"dynn_Jegal"
+			"dynn_Myeong"
+			"dynn_Seung"
+			"dynn_Yi"
+			"dynn_Lee"
+			"dynn_Pung"
+			"dynn_Ju"
+			
+		}
+
+		male_names = {
+			Gisun Gibae Gijeong Giyeong Giheon Gichang Gipyeong Gihong Gyeongun Gyeongwon Gyeongseok Gyeongseung Gyeongtak Gyeongheum Gyeongbang Gyeongdeok Gyeongjin Gyengyoon Seongmo Seongse Seonggwan Seunggwan Byeonggwan Yeonggwan Jeonggwan Myeonggwan Pyeonggwan Daeseok Daeseon Daeseong Daehun Daegeun Daejeong Daebyeong Daemoon Deokjin Deokyeong Deokmoon Deokchang Deokse Deokgwang Deokhong Ryuseong Ryuheum Ryuhong Ryu Myeongjin Myeongdeok Myeongwon Myeongseup Myeongchan Myeongyun Bangwoo Banggwa Bangui Banggan Bangwon Bangyeon Bangbeon Bangseok Byeongjin Byeongdeuk Byeonggyu Byeongin Byeongseung Byeongyoon Byeongcheon Semin Semyeong Sehwang Sechang Segwang Sehyeong Sejeong Yongbae Yeongbae Gyeongbae Jinbae Deokbae Anhbae Chungbae Seongwon Seonggyu Seongdong Seonghun Seongheum Seongmoon Seongho Seongin Seongjin Yuchang Yuseok Yuseung Yugyeong Yuhun Inbong InHyeop Inheum Inhong Inchang Innam Ingyeong Inhwan Injeong Jongjun Jonghwan Jongtan Jongyeon Jongsan Jeongsin Jeongbang Jeongin Jeongmu Jeongsu Jeongwoon Jangyoon Jangpyeong Janghak Janggyeon Jangwan Jangung Chaedan Chaeyeol Chaeseon Chaemoon Chaehong Chaeam Chaeok Changseok Changsun Changyeong Changyong Changmo Changsu Changgeun Cheongyoon Cheonghun Cheongheum Cheongyeong Taepyeong Taehun Taehong Taehwan Taewan Taeun Taegyeong Taegu Taesik Pyeongmoon Pyeongseung Pyeongjin Honggyu Hongchang Hongsun Hongseon Hongseong Hongjin Hongtae Hongdeok Hongyoon Honggyun Honggyeong Hongmin Hongmoon Hojin Hojeong Hobyeong Hoban Hosang Hojun Homin Hageon Haseung Hagwon Hadong Hauk Hamyeong Gyeong Gwon Gi Gu Nam Dan Deok Wi Yeong Yoo Yun Yuk Moon Mu Byeong Byeok Baek Bin Seung San Seon Sin Sung Sang Ahn Wan Won Jeok Jin Jeong Jun Chang Chung Chim Chi Chik Tak Tang Tae Taek Teuk Pyeong Paeng Pung Heum Hoe Heon Hang Ham Hwak Hon Hyeong Hyeon Hyeok Hyu Hwan Hwang Han Hak Hap Heup
+		}
+		female_names = {
+			Gyepyeong Gyeyoon Gyehong Gyedan Gyesong Gahwi Garan Gaseon Gahyeon Gamyeong Nahye Nahyeon Nahwi Nahong Nain Nanhwi Nanhong Nanhwa Nanhye Nanmyeong Nanjeong Namhong Namhye Nameun Dain Dagyeong Dajeong Dahyeon Damae Danhwi Danhye Danju Dansin Danbin Dansong Deokchun Deokbun Deoksin Deokhye Deokseon Deoksaeng Deokgye Deokmin Deokran Deokahn Deokryu Deokrye Deokjeong Rhojin Ranhwa Ranhwi Ranhong Ranju Ranjo Ran Maehwa Maehong Maeyul Maesin Maehyeon Maeyeon Maeran Maengyun Banseok Bangwi Banseon Banhyang Sajin Saeun Sahyeon Seohye Seohong Seojin Seoyeon Seoyoon Seungan Seunghwi Seunghye Seungdeok Anhye Anhwi Anpyeong Anseong Anseung Ansong Anjin Yegyeong Yegwang Yewon Yewan Yesin Yeseon Aesin Aesun Aeseon Aehong Aejin Yejin Yeseong Yanghwa Yanghye Yangseon Yangsun Yangsin Yangjin Yangdan Yangran Yanghyeon Yangchun Yeonghwa Yeonghwi Yeongsin Yeonjin Yeongdan Yeongsun Yeongae Yeongrae Yeonghong Inhwa Inhye Inseon Yeonseon Yeonseong Yeonhong Yeonhwi Yeonhwa Yeongyeong Yeonjeong Yeonsin Yujin Yuhwa Yuhong Yuhyeon Yuhye Jihyeon Jihye Jihong Jihwi Jiseon Jiseong Jimin Jiin Jiye Jiyeong Jiyeon Jiyun Jina Jimyeong Jehwi Juhwi Juseon Juhong Juhwa Juyeon Juyeong Juyi Jugyeong Judan Johye Johwi Johwa Jomyeong Joye Joyeong Joyeon Jowan Josok Josun Jeonghwi Jeongyun Jeonghwa Jeongsun Jeongmi Jeongbun Jeongrye Jeongdan Jeongyeon Jeonghyeon Chaeyeon Chaehyeon Chaehwi Chaehong Chaejin Chaesin Chaesun Chaeyun Chaeyeong Chahwi Chahwa Chahong Chajin Chayeong Chayeon Tonghye Tongyeon Tonghyeon Tonghye Taehwi Taehwa Taehong Taejin Taeyeon Taeyeong Taeahn Taeran Taeeun Taeyun Taesun Taesin Pyeonghwi Pyeonhwa Pyeonghong Pyeonghye Pyeongin Pyeongchun Hyejin Hyeseon Hyein Hyedan Hyedeok Hyesun Hyehong Hyehwa Hyeran Hyerin Hyeyeon Hyeyeong Hyeseong Hyewon Hyeeun Hyesong Haein Haeseon Haeyun Haehyeon Haejin Haeseong Haedan Hwajin Hwain Hwasin Hwayang Hwawon Hwajeong Hwagyeong Hwayeon Hwayeong Hwayun Hwaae Hwasang Hwaseon Hwasun Hyojang Hyojin Hyoin Hyogyeong Hyohye Hyohong Hyoseon Hyoseong Hyojeong Hyorin
+		}
+		
+		dynasty_title_names = no
+
+		ethnicities = {
+			10 = asian
+		}
+	}
+	Balhae = { #발해/Bohai/渤海
+		
+		dynasty_name_first = yes
+		
+		color = { 255 0 0 }
+
+		dynasty_names = {
+			
+			"dynn_Dae"
+			"dynn_Li"
+			"dynn_Bak"
+			"dynn_Jeong"
+			"dynn_Yoon"
+			"dynn_Choi"
+			"dynn_Ryu"
+			"dynn_Ryoo"
+			"dynn_Hong"
+			"dynn_Sin"
+			"dynn_Gwon"
+			"dynn_Jo"
+			"dynn_Han"
+			"dynn_O"
+			"dynn_Gang"
+			"dynn_Sim"
+			"dynn_Ahn"
+			"dynn_Heo"
+			"dynn_Jang"
+			"dynn_Min"
+			"dynn_Im"
+			"dynn_Nam"
+			"dynn_Seo"
+			"dynn_Gu"
+			"dynn_Seong"
+			"dynn_Song"
+			"dynn_Yoo"
+			"dynn_Won"
+			"dynn_Hwang"
+			"dynn_Yeo"
+			"dynn_Yang"
+			"dynn_Woo"
+			"dynn_Na"
+			"dynn_Ra"
+			"dynn_Son"
+			"dynn_Rho"
+			"dynn_Mok"
+			"dynn_Je"
+			"dynn_Bae"
+			"dynn_Maeng"
+			"dynn_Gwak"
+			"dynn_Byeon"
+			"dynn_Gyeong"
+			"dynn_Baek"
+			"dynn_Jeon"
+			"dynn_Um"
+			"dynn_Go"
+			"dynn_Moon"
+			"dynn_Ha"
+			"dynn_So"
+			"dynn_Gi"
+			"dynn_Ji"
+			"dynn_Jin"
+			"dynn_Geum"
+			"dynn_Gil"
+			"dynn_Yeon"
+			"dynn_Ju"
+			"dynn_Yeom"
+			"dynn_Ban"
+			"dynn_Bang"
+			"dynn_Gong"
+			"dynn_Seol"
+			"dynn_Tae"
+			"dynn_Tak"
+			"dynn_Ham"
+			"dynn_Bong"
+			"dynn_Ma"
+			"dynn_Pyo"
+			"dynn_Eun"
+			"dynn_Ye"
+			"dynn_Ohk"
+			"dynn_Seon"
+			"dynn_In"
+			"dynn_Seok"
+			"dynn_Du"
+			"dynn_Chu"
+			"dynn_Dan"
+			"dynn_Paeng"
+			"dynn_Cheon"
+			"dynn_Cha"
+			"dynn_Chae"
+			"dynn_Yong"
+			"dynn_Namgung"
+			"dynn_Hwangbo"
+			"dynn_Seonwoo"
+			"dynn_Dokgo"
+			"dynn_Sama"
+			"dynn_Jegal"
+			"dynn_Myeong"
+			"dynn_Seung"
+			"dynn_Yi"
+			"dynn_Lee"
+			"dynn_Pung"
+			"dynn_Ju"
+			
+		}
+
+		male_names = {
+			Gisun Gibae Gijeong Giyeong Giheon Gichang Gipyeong Gihong Gyeongun Gyeongwon Gyeongseok Gyeongseung Gyeongtak Gyeongheum Gyeongbang Gyeongdeok Gyeongjin Gyengyoon 
+      Seongmo Seongse Seonggwan Seunggwan Byeonggwan Yeonggwan Jeonggwan Myeonggwan Pyeonggwan Daeseok Daeseon Daeseong Daehun Daegeun Daejeong Daebyeong Daemoon Deokjin Deokyeong Deokmoon Deokchang Deokse Deokgwang Deokhong Ryuseong Ryuheum Ryuhong Ryu Myeongjin Myeongdeok Myeongwon Myeongseup Myeongchan Myeongyun Bangwoo Banggwa Bangui Banggan Bangwon Bangyeon Bangbeon Bangseok Byeongjin Byeongdeuk Byeonggyu Byeongin Byeongseung Byeongyoon Byeongcheon Semin Semyeong Sehwang Sechang Segwang Sehyeong Sejeong Yongbae Yeongbae Gyeongbae Jinbae Deokbae Anhbae Chungbae Seongwon Seonggyu Seongdong Seonghun Seongheum Seongmoon Seongho Seongin Seongjin Yuchang Yuseok Yuseung Yugyeong Yuhun Inbong InHyeop Inheum Inhong Inchang Innam Ingyeong Inhwan Injeong Jongjun Jonghwan Jongtan Jongyeon Jongsan Jeongsin Jeongbang Jeongin Jeongmu Jeongsu Jeongwoon Jangyoon Jangpyeong Janghak Janggyeon Jangwan Jangung Chaedan Chaeyeol Chaeseon Chaemoon Chaehong Chaeam Chaeok Changseok Changsun Changyeong Changyong Changmo Changsu Changgeun Cheongyoon Cheonghun Cheongheum Cheongyeong Taepyeong Taehun Taehong Taehwan Taewan Taeun Taegyeong Taegu Taesik Pyeongmoon Pyeongseung Pyeongjin Honggyu Hongchang Hongsun Hongseon Hongseong Hongjin Hongtae Hongdeok Hongyoon Honggyun Honggyeong Hongmin Hongmoon Hojin Hojeong Hobyeong Hoban Hosang Hojun Homin Hageon Haseung Hagwon Hadong Hauk Hamyeong Gyeong Gwon Gi Gu Nam Dan Deok Wi Yeong Yoo Yun Yuk Moon Mu Byeong Byeok Baek Bin Seung San Seon Sin Sung Sang Ahn Wan Won Jeok Jin Jeong Jun Chang Chung Chim Chi Chik Tak Tang Tae Taek Teuk Pyeong Paeng Pung Heum Hoe Heon Hang Ham Hwak Hon Hyeong Hyeon Hyeok Hyu Hwan Hwang Han Hak Hap Heup
+		}
+		female_names = {
+			Gyepyeong Gyeyoon Gyehong Gyedan Gyesong Gahwi Garan Gaseon Gahyeon Gamyeong Nahye Nahyeon Nahwi Nahong Nain Nanhwi Nanhong Nanhwa Nanhye Nanmyeong Nanjeong Namhong Namhye Nameun Dain Dagyeong Dajeong Dahyeon Damae Danhwi Danhye Danju Dansin Danbin Dansong Deokchun Deokbun Deoksin Deokhye Deokseon Deoksaeng Deokgye Deokmin Deokran Deokahn Deokryu Deokrye Deokjeong Rhojin Ranhwa Ranhwi Ranhong Ranju Ranjo Ran Maehwa Maehong Maeyul Maesin Maehyeon Maeyeon Maeran Maengyun Banseok Bangwi Banseon Banhyang Sajin Saeun Sahyeon Seohye Seohong Seojin Seoyeon Seoyoon Seungan Seunghwi Seunghye Seungdeok Anhye Anhwi Anpyeong Anseong Anseung Ansong Anjin Yegyeong Yegwang Yewon Yewan Yesin Yeseon Aesin Aesun Aeseon Aehong Aejin Yejin Yeseong Yanghwa Yanghye Yangseon Yangsun Yangsin Yangjin Yangdan Yangran Yanghyeon Yangchun Yeonghwa Yeonghwi Yeongsin Yeonjin Yeongdan Yeongsun Yeongae Yeongrae Yeonghong Inhwa Inhye Inseon Yeonseon Yeonseong Yeonhong Yeonhwi Yeonhwa Yeongyeong Yeonjeong Yeonsin Yujin Yuhwa Yuhong Yuhyeon Yuhye Jihyeon Jihye Jihong Jihwi Jiseon Jiseong Jimin Jiin Jiye Jiyeong Jiyeon Jiyun Jina Jimyeong Jehwi Juhwi Juseon Juhong Juhwa Juyeon Juyeong Juyi Jugyeong Judan Johye Johwi Johwa Jomyeong Joye Joyeong Joyeon Jowan Josok Josun Jeonghwi Jeongyun Jeonghwa Jeongsun Jeongmi Jeongbun Jeongrye Jeongdan Jeongyeon Jeonghyeon Chaeyeon Chaehyeon Chaehwi Chaehong Chaejin Chaesin Chaesun Chaeyun Chaeyeong Chahwi Chahwa Chahong Chajin Chayeong Chayeon Tonghye Tongyeon 
+			On Tonghye Taehwi Taehwa Taehong Taejin Taeyeon Taeyeong Taeahn Taeran Taeeun Taeyun Taesun Taesin Pyeonghwi Pyeonhwa Pyeonghong Pyeonghye Pyeongin Pyeongchun Hyejin Hyeseon Hyein Hyedan Hyedeok Hyesun Hyehong Hyehwa Hyeran Hyerin Hyeyeon Hyeyeong Hyeseong Hyewon Hyeeun Hyesong Haein Haeseon Haeyun Haehyeon Haejin Haeseong Haedan Hwajin Hwain Hwasin Hwayang Hwawon Hwajeong Hwagyeong Hwayeon Hwayeong Hwayun Hwaae Hwasang Hwaseon Hwasun Hyojang Hyojin Hyoin Hyogyeong Hyohye Hyohong Hyoseon Hyoseong Hyojeong Hyorin
+		}
+		
+		dynasty_title_names = no
+
+		ethnicities = {
+			10 = asian
+		}
+	}
+
+}
