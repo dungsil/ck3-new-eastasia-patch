@@ -6,6 +6,7 @@ Bureaucracy_government_levies_min_ca_1 = 0.05
 Bureaucracy_government_levies_min_ca_2 = 0.15
 Bureaucracy_government_levies_min_ca_3 = 0.25
 
+Bureaucracy_government_official_tax_default = 0.15
 Bureaucracy_government_tax_default = 0.15
 Bureaucracy_government_tax_player = 0.1
 Bureaucracy_government_tax_opinion_scale_positive = 0.001
