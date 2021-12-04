@@ -1,0 +1,165 @@
+﻿Autocracy_government = { #(황제)전제정
+	create_cadet_branches = no
+	rulers_should_have_dynasty = yes
+	dynasty_named_realms = no
+
+	fallback = 2
+
+	can_get_government = {
+		highest_held_title_tier >= tier_kingdom
+		OR = {
+			has_culture_group = culture_group:chinese_group
+			has_culture = culture:shatuo #사타족
+			has_culture = culture:tuyuhun #토욕혼
+			has_culture = culture:tangut #탕구트(서하)
+			has_culture = culture:Baek #백족
+			has_culture = culture:sogdian #소그드인
+			has_culture = culture:uyghur #위구르
+			has_culture = culture:yughur #유구르
+			has_culture_group = culture_group:Tunguse_group #퉁구스 계열
+			has_culture_group = culture_group:Koreans_group #한민족 계열
+			has_culture_group = culture_group:Wol_group #월족 계열
+		}
+	}
+
+	primary_culture_groups = { chinese_group Koreans_group }
+	primary_cultures = { shatuo han Baek Goguryeo Goryeo Silla Gyoji Min Bok }
+
+	primary_holding = castle_holding
+	valid_holdings = { castle_holding city_holding tribal_holding }
+	required_county_holdings = { castle_holding city_holding }
+	court_generate_spouses = yes
+	court_generate_commanders = no
+
+	vassal_contract = {
+		feudal_government_taxes
+		special_Autocracy_contract #전제정 계약
+		#special_Autocracy_Corps 전제정 군단제
+		#special_Autocracy_royal 전제정 황실계약
+		#special_Autocracy_bureau 전제정 관료제
+		feudal_government_levies
+		special_contract
+		religious_rights
+		fortification_rights
+		coinage_rights
+		succession_rights
+		war_declaration_rights
+		council_rights
+		title_revocation_rights
+	}
+	vassal_contract = {
+		Autocracy_government_obligations
+	}
+
+	character_modifier = {
+			domain_limit = 2
+			knight_limit = 6
+			vassal_limit = 3
+
+		feudal_government_vassal_opinion = -15 #봉건제 신하와의 의견
+		clan_government_vassal_opinion = -25 #씨족제 신하와의 의견
+		republic_government_vassal_opinion = -25 #공화제 신하와의 의견
+		theocracy_government_vassal_opinion = -15 #신정제 신하와의 의견
+
+		men_at_arms_maintenance = 0.35 #군대 유지비
+		mercenary_hire_cost_mult = 0.25 #용병 고용비
+
+		development_growth_factor = 0.1 #개발도상승 백분율 수치
+		development_growth = 0.1 #개발도상승 수치
+		development_growth_factor = small_development_growth_loss
+		corruption_negative = 0.4 (무슨 수치인지 모르겠음)
+		build_speed = 0.1 #건물 건설속도(동아시아 특성 : 대규모 인력동원)
+		build_gold_cost = 0.2 #건물 건설비용 (동아시아 특성 : 토목공사 비용충당)
+		ai_war_chance = 0.5
+		ai_war_cooldown = 1
+		ai_rationality = 1
+			
+	}
+
+	color = { 250 175 50 }
+
+
+}
+
+Bureaucracy_government = { #동아시아 관료제(기존 공화정 대체)
+	create_cadet_branches = no
+	rulers_should_have_dynasty = yes
+
+	fallback = 2
+
+	can_get_government = {
+		highest_held_title_tier <= tier_duchy
+		OR = {
+			has_culture_group = culture_group:chinese_group
+			has_culture = culture:shatuo #사타족
+			has_culture = culture:tuyuhun #토욕혼
+			has_culture = culture:tangut #탕구트(서하)
+			has_culture = culture:Baek #백족
+			has_culture = culture:sogdian #소그드인
+			has_culture = culture:uyghur #위구르
+			has_culture = culture:yughur #유구르
+			has_culture_group = culture_group:Tunguse_group #퉁구스 계열
+			has_culture_group = culture_group:Koreans_group #한민족 계열
+			has_culture_group = culture_group:Wol_group #월족 계열
+		}
+	}
+
+	primary_holding = city_holding
+	valid_holdings = { castle_holding }
+	required_county_holdings = { city_holding }
+
+	primary_culture_groups = { chinese_group Koreans_group }
+	primary_cultures = { han Baek Goguryeo Goryeo Silla Gyoji Min Bok }
+	preferred_religions = { taoism_religion } #confucianism_religion(유교 차후 추가)
+	court_generate_spouses = yes
+	court_generate_commanders = no
+
+	vassal_contract = {
+		feudal_government_taxes
+		feudal_government_levies
+		special_contract
+		religious_rights
+		fortification_rights
+		coinage_rights
+		succession_rights
+		war_declaration_rights
+		council_rights
+		title_revocation_rights
+	}
+
+	vassal_contract = {
+		Bureaucracy_government_obligations
+	}
+
+	ai = {
+		arrange_marriage = yes
+		use_goals = yes
+		use_scripted_guis = yes
+		perform_religious_reformation = yes
+	}
+
+	character_modifier = {
+		domain_limit = -6 #직할령 한계
+		vassal_limit = -4 #봉신 한계
+		knight_limit = -4 #기사 한계
+		
+		tax_mult = 0.35 #세금 비율
+		levy_size = -0.3
+		men_at_arms_limit = -2
+		men_at_arms_cap = -1
+		men_at_arms_maintenance = 0.5 #군대 유지비
+		mercenary_hire_cost_mult = -0.15 #용병 고용비
+
+		development_growth_factor = 0.1 #개발도상승 백분율 수치
+		development_growth = 0.1 #개발도상승 수치
+		corruption_negative = 0.4 (무슨 수치인지 모르겠음)
+		build_speed = 0.1 #건물 건설속도(동아시아 특성 : 대규모 인력동원)
+		build_gold_cost = 0.2 #건물 건설비용 (동아시아 특성 : 토목공사 비용충당)
+
+		ai_war_chance = 0.2
+		opinion_of_liege = 20
+		
+	}
+
+	color = { 124 222 127 }
+}
