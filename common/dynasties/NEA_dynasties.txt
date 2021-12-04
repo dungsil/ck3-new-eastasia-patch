@@ -1,0 +1,509 @@
+﻿
+Bak = {
+	name = "dynn_Bak" #박씨 
+	culture = "Silla"
+	culture = "Baekje"
+	culture = "Goryeo"
+	culture = "Goguryeo"
+	culture = "Balhae"
+}
+
+Seok = {
+	name = "dynn_Seok" #석씨
+	culture = "Silla"
+	culture = "Goryeo"
+}
+
+Gyeongju_Kim = {
+	name = "dynn_GjKim" #경주 김씨
+	culture = "Silla"
+	culture = "Goryeo"
+}
+
+Gaeseong_Wang = {
+	name = "dynn_GsWang" #개성 왕씨
+	culture = "Goryeo"
+	culture = "Goguryeo"
+}
+
+Gyeongju_Lee = {
+	name = "dynn_GjLi" #경주 이씨
+	culture = "Silla"
+		culture = "Goryeo"
+}
+
+Gyeon = {
+	name = "dynn_Gyeon" #견씨
+	culture = "Baekje"
+}
+
+Jeonju_Lee = {
+	name = "dynn_JjLee" #전주 이씨
+	culture = "Goryeo"
+}
+
+Dae = {
+	name = "dynn_dae" #대씨
+	culture = "Silla"
+	culture = "Baekje"
+	culture = "Goryeo"
+	culture = "Goguryeo"
+	culture = "Balhae"
+}
+
+Hwangbo = {
+	name = "dynn_Hwangbo" #황보씨
+	culture = "han"
+	culture = "Silla"
+	culture = "Baekje"
+	culture = "Goryeo"
+	culture = "Goguryeo"
+	culture = "Balhae"
+}
+
+Cha = {
+	name = "dynn_Cha" #차씨
+	culture = "han"
+	culture = "Silla"
+	culture = "Baekje"
+	culture = "Goryeo"
+	culture = "Goguryeo"
+	culture = "Balhae"
+}
+
+Choi = {
+	name = "dynn_Choi" #최씨
+	culture = "han"
+	culture = "Silla"
+	culture = "Baekje"
+	culture = "Goryeo"
+	culture = "Goguryeo"
+	culture = "Balhae"
+}
+
+Go = {
+	name = "dynn_Go" #고씨
+	culture = "han"
+	culture = "Silla"
+	culture = "Baekje"
+	culture = "Goryeo"
+	culture = "Goguryeo"
+	culture = "Balhae"
+	culture = "Min"
+	culture = "Gyoji"
+}
+
+Ah = {
+	name = "dynn_Ah" #아씨(아지태)
+	culture = "Silla"
+	culture = "Baekje"
+	culture = "Goryeo"
+	culture = "Goguryeo"
+	culture = "Balhae"
+}
+
+Geum2 = {
+	name = "dynn_Geum2" #금씨(금용)
+	culture = "Silla"
+	culture = "Baekje"
+	culture = "Goryeo"
+	culture = "Goguryeo"
+	culture = "Balhae"
+}
+
+
+################################################
+
+Ho = {
+	name = "dynn_Ho" #호씨
+	culture = "han"
+	culture = "Gyoji"
+}
+
+Gok = {
+	name = "dynn_Gok" #곡씨
+	culture = "Gyoji"
+}
+
+Noh = {
+	name = "dynn_Noh" #노씨
+	culture = "han"
+	culture = "Silla"
+	culture = "Baekje"
+	culture = "Goryeo"
+	culture = "Goguryeo"
+	culture = "Balhae"
+	culture = "Min"
+}
+
+Jong = {
+	name = "dynn_Jong" #종씨 (鍾)
+	culture = "han"
+}
+
+Lee1 = {
+	name = "dynn_Lee1" #이씨
+	culture = "han"
+	culture = "Silla"
+	culture = "Baekje"
+	culture = "Goryeo"
+	culture = "Goguryeo"
+	culture = "Balhae"
+	culture = "Min"
+}
+
+Han1 = {
+	name = "dynn_Han1" #나씨
+	culture = "han"
+	culture = "Silla"
+	culture = "Baekje"
+	culture = "Goryeo"
+	culture = "Goguryeo"
+	culture = "Balhae"
+	culture = "Min"
+}
+
+Na = {
+	name = "dynn_Na" #나씨
+	culture = "han"
+	culture = "Silla"
+	culture = "Baekje"
+	culture = "Goryeo"
+	culture = "Goguryeo"
+	culture = "Balhae"
+	culture = "Min"
+}
+
+Si = {
+	name = "dynn_Si" #시씨
+	culture = "han"
+	culture = "Silla"
+	culture = "Baekje"
+	culture = "Goryeo"
+	culture = "Goguryeo"
+	culture = "Balhae"
+	culture = "Min"
+}
+
+Im = {
+	name = "dynn_Im" #임씨
+	culture = "han"
+	culture = "Silla"
+	culture = "Baekje"
+	culture = "Goryeo"
+	culture = "Goguryeo"
+	culture = "Balhae"
+	culture = "Min"
+}
+
+Jeon = {
+	name = "dynn_Jeon" #전씨(全)
+	culture = "han"
+	culture = "Silla"
+	culture = "Baekje"
+	culture = "Goryeo"
+	culture = "Goguryeo"
+	culture = "Balhae"
+	culture = "Min"
+}
+
+Jeon.1 = {
+	name = "dynn_Jeon1" #전씨(錢)
+	culture = "han"
+	culture = "Silla"
+	culture = "Baekje"
+	culture = "Goryeo"
+	culture = "Goguryeo"
+	culture = "Balhae"
+	culture = "Min"
+}
+
+Ma = {
+	name = "dynn_Ma" #마씨
+	culture = "han"
+	culture = "Silla"
+	culture = "Baekje"
+	culture = "Goryeo"
+	culture = "Goguryeo"
+	culture = "Balhae"
+	culture = "Min"
+}
+
+Ju = {
+	name = "dynn_Ju" #주씨(周)
+	culture = "han"
+	culture = "Silla"
+	culture = "Baekje"
+	culture = "Goryeo"
+	culture = "Goguryeo"
+	culture = "Balhae"
+}
+
+Ju.1 = {
+	name = "dynn_Ju1" #주씨(朱)
+	culture = "han"
+	culture = "Silla"
+	culture = "Baekje"
+	culture = "Goryeo"
+	culture = "Goguryeo"
+	culture = "Balhae"
+}
+
+Ha = {
+	name = "dynn_Ha" #하씨
+	culture = "han"
+	culture = "Silla"
+	culture = "Baekje"
+	culture = "Goryeo"
+	culture = "Goguryeo"
+	culture = "Balhae"
+}
+
+Jeong.1 = {
+	name = "dynn_Jeong1" #정씨 (鄭)
+	culture = "han"
+	culture = "Silla"
+	culture = "Baekje"
+	culture = "Goryeo"
+	culture = "Goguryeo"
+	culture = "Balhae"
+}
+
+Jeong.2 = {
+	name = "dynn_Jeong2" #정씨 (丁)
+	culture = "han"
+	culture = "Silla"
+	culture = "Baekje"
+	culture = "Goryeo"
+	culture = "Goguryeo"
+	culture = "Balhae"
+}
+
+Sim = {
+	name = "dynn_Sim" #심씨
+	culture = "han"
+	culture = "Silla"
+	culture = "Baekje"
+	culture = "Goryeo"
+	culture = "Goguryeo"
+	culture = "Balhae"
+}
+
+O = {
+	name = "dynn_O" #오씨
+	culture = "han"
+	culture = "Silla"
+	culture = "Baekje"
+	culture = "Goryeo"
+	culture = "Goguryeo"
+	culture = "Balhae"
+}
+
+Yu = {
+	name = "dynn_Yu" #유씨
+	culture = "han"
+	culture = "Silla"
+	culture = "Baekje"
+	culture = "Goryeo"
+	culture = "Goguryeo"
+	culture = "Balhae"
+	culture = "Min"
+	culture = "Gyoji"
+}
+
+Ryu = {
+	name = "dynn_Ryu" #유씨(류씨)
+	culture = "han"
+	culture = "Silla"
+	culture = "Baekje"
+	culture = "Goryeo"
+	culture = "Goguryeo"
+	culture = "Balhae"
+}
+
+
+Jo.1 = {
+	name = "dynn_Jo1" #조씨 (趙)
+	culture = "han"
+	culture = "Silla"
+	culture = "Baekje"
+	culture = "Goryeo"
+	culture = "Goguryeo"
+	culture = "Balhae"
+}
+
+Jo.2 = {
+	name = "dynn_Jo2" #조씨 (曺)
+	culture = "han"
+	culture = "Silla"
+	culture = "Baekje"
+	culture = "Goryeo"
+	culture = "Goguryeo"
+	culture = "Balhae"
+}
+
+Wang = {
+	name = "dynn_Wang" #왕씨
+	culture = "han"
+	culture = "Silla"
+	culture = "Baekje"
+	culture = "Goryeo"
+	culture = "Goguryeo"
+	culture = "Balhae"
+	culture = "Min"
+}
+
+Wi = {
+	name = "dynn_Wi" #위씨
+	culture = "han"
+}
+
+Wi.1 = {
+	name = "dynn_Wi1" #위씨
+	culture = "han"
+}
+
+Wi.2 = {
+	name = "dynn_Wi2" #위씨
+	culture = "han"
+}
+
+So = {
+	name = "dynn_So" #소씨
+	culture = "han"
+}
+
+Hadong_Seol = {
+	name = "dynn_Hadong_Seol" #하동 설씨
+	culture = "han"
+}
+
+Du = {
+	name = "dynn_Du" #두씨
+	culture = "han"
+}
+
+Yeo = {
+	name = "dynn_Yeo" #여씨
+	culture = "han"
+	culture = "Silla"
+	culture = "Baekje"
+	culture = "Goryeo"
+	culture = "Goguryeo"
+	culture = "Balhae"
+}
+
+Yo = {
+	name = "dynn_Yo" #요씨
+	culture = "han"
+}
+
+Jilno = {
+	name = "dynn_Jilno" #질노씨
+	culture = "han"
+}
+
+Won = {
+	name = "dynn_Won" #원씨
+	culture = "han"
+	culture = "Silla"
+	culture = "Baekje"
+	culture = "Goryeo"
+	culture = "Goguryeo"
+	culture = "Balhae"
+}
+
+Yang = {
+	name = "dynn_Yang" #양씨
+	culture = "han"
+	culture = "Silla"
+	culture = "Baekje"
+	culture = "Goryeo"
+	culture = "Goguryeo"
+	culture = "Balhae"
+}
+
+Yang1 = {
+	name = "dynn_Yang" #양씨
+	culture = "han"
+	culture = "Silla"
+	culture = "Baekje"
+	culture = "Goryeo"
+	culture = "Goguryeo"
+	culture = "Balhae"
+}
+
+Ga = {
+	name = "dynn_Ga" #가씨
+	culture = "han"
+}
+
+Jang = {
+	name = "dynn_Jang" #장씨
+	culture = "han"
+	culture = "Silla"
+	culture = "Baekje"
+	culture = "Goryeo"
+	culture = "Goguryeo"
+	culture = "Balhae"
+}
+
+Mu.1 = {
+	name = "dynn_Mu1" #무씨
+	culture = "han"
+}
+
+Wumun = {
+	name = "dynn_Wumun" #우문씨. 북주 황성.
+	culture = "han"
+}
+
+Dokgo = {
+	name = "dynn_Dokgo" #독고씨. 북주,수,당 외척 가문.
+	culture = "han"
+}
+
+Jangson = {
+	name = "dynn_Jangson" #장손씨. 당 외척 가문.
+	culture = "han"
+}
+
+Gwak = {
+	name = "dynn_Gwak" #곽씨. 당 외척 가문+ 무장집안.
+	culture = "han"
+	culture = "Silla"
+	culture = "Baekje"
+	culture = "Goryeo"
+	culture = "Goguryeo"
+	culture = "Balhae"
+}
+
+Nongseo_Li = {
+	name = "dynn_Nongseo_lee" #농서 이씨. 당 황성.
+	culture = "han"
+	culture = "shatuo"
+}
+
+Hongnong_Yang = {
+	name = "dynn_Hongnong_Yang" #홍농 양씨. 수 황성.
+	culture = "han"
+}
+
+################################################
+
+Yayul = {
+	name = "dynn_Yayul" #야율씨. 요 황성.
+	culture = "khitan"
+}
+Yoryeon = {
+	name = "dynn_Yoryeon" #요련씨. 거란 8부족 연맹장 성씨.
+	culture = "khitan"
+}
+Sulyul = {
+	name = "dynn_Sulyul" #술율씨.
+	culture = "khitan"
+}
+So.1 = {
+	name = "dynn_So1" #소씨
+	culture = "khitan"
+}
