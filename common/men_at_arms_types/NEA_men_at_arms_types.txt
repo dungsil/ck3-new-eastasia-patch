@@ -1,4 +1,4 @@
-# standard costs
+﻿# standard costs
 @maa_buy_cost = 150
 @maa_low_maintenance_cost = 1.0
 @maa_high_maintenance_cost = 5.0
@@ -171,7 +171,7 @@ gungwigigun = { #궁위기궁, 경기병
 	screen = 12
 	
 	terrain_bonus = {
-		farmland = { damage = 22 pursuit = 7 } #+45%,+20%
+		farmlands = { damage = 22 pursuit = 7 } #+45%,+20%
 		plains = { damage = 12 } #+25%
 		steppe = { damage = 22 pursuit = 7 } #+45%,+20%
 		drylands = { damage = 12 } #+25%

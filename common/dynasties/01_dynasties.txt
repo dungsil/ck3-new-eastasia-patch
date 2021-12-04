@@ -1,4 +1,4 @@
-new_capet = { #for start screen
+﻿new_capet = { #for start screen
 	name = "dynn_Capet"
 	culture = "french"
 }
@@ -260,11 +260,9 @@ olshanski = {
 	name = "dynn_Olshanski"
 	culture = "lithuanian"
 }
-1022301=
-{
+1022301={
 	name="dynn_Pyrrogenes"
 	culture="crimean_gothic"
-	religion="orthodox"
 }
 1062069 = {
 	name = "dynn_Caulita"
@@ -494,82 +492,66 @@ olshanski = {
 1059036 = {
 	name="dynn_Haroun" 
 	culture = coptic
-	religion="coptic"
 }
 1059037 = {
 	name="dynn_Zaia"
 	culture = coptic
-	religion="coptic"
 }
 1059038 = {
 	name="dynn_Abderahman"
 	culture = coptic
-	religion="coptic"
 }
 1059039 = {
 	name="dynn_Merkourios"
 	culture = coptic
-	religion="coptic"
 }
 1059040 = {
 	name="dynn_Bayomi"
 	culture = coptic
-	religion="coptic"
 }
 1059041 = {
 	name="dynn_Quolta"
 	culture = coptic
-	religion="coptic"
 }
 1059042 = {
 	name="dynn_Babnouda"
 	culture = coptic
-	religion="coptic"
 }
 1059043 = {
 	name="dynn_Barsanouphios"
 	culture = coptic
-	religion="coptic"
 }
 1059044 = {
 	name="dynn_Apion"
 	culture = coptic
-	religion="coptic"
 }
 1059045 = {
 	name="dynn_Paphnoutios"
 	culture = coptic
-	religion="coptic"
 }
 1059046 = {
 	name="dynn_Shenouti"
 	culture = coptic
-	religion="coptic"
 }
 1059047 = {
 	name="dynn_Papnoute"
 	culture = coptic
-	religion="coptic"
 }
 1059048 = {
 	name="dynn_Shenouda"
 	culture = coptic
-	religion="coptic"
 }
 1059049 = {
 	name="dynn_Ruweis"
 	culture = coptic
-	religion="coptic"
 }
 1059050 = {
 	name="dynn_Amoun"
 	culture = coptic
-	religion="coptic"
 }
 1059071 = {
 	name="dynn_Bashmur" 
 	culture = coptic
-	religion="coptic"
 }
 1062591 = {
 	prefix = "dynnp_en"
@@ -579,137 +561,110 @@ olshanski = {
 1059012 = {
 	name="dynn_Bukhtishu"
 	culture="assyrian"
-	religion="nestorian"
 }
 1059013 = {
 	name="dynn_Qatwa"
 	culture="assyrian"
-	religion="nestorian"
 }
 1059014 = {
 	name="dynn_Nimreh"
 	culture="assyrian"
-	religion="nestorian"
 }
 1059015 = {
 	name="dynn_Gazarta"
 	culture="assyrian"
-	religion="nestorian"
 }
 1059016 = {
 	name="dynn_Salamas"
 	culture="assyrian"
-	religion="nestorian"
 }
 1059017 = {
 	name="dynn_Zakho"
 	culture="assyrian"
-	religion="nestorian"
 }
 1059018 = {
 	name="dynn_Arbilaya"
 	culture="assyrian"
-	religion="nestorian"
 }
 1059051 = {
 	name="dynn_Nisan"
 	culture = assyrian
-	religion="nestorian"
 }
 1059052 = {
 	name="dynn_Somikka"
 	culture = assyrian
-	religion="nestorian"
 }
 1059053 = {
 	name="dynn_Simele"
 	culture = assyrian
-	religion="nestorian"
 }
 1059054 = {
 	name="dynn_Sulaqa"
 	culture = assyrian
-	religion="nestorian"
 }
 1059055 = {
 	name="dynn_Diklah"
 	culture = assyrian
-	religion="nestorian"
 }
 1059056 = {
 	name="dynn_Hanina"
 	culture = assyrian
-	religion="nestorian"
 }
 1059057 = {
 	name="dynn_Hozai"
 	culture = assyrian
-	religion="nestorian"
 }
 1059058 = {
 	name="dynn_Shammai"
 	culture = assyrian
-	religion="nestorian"
 }
 1059059 = {
 	name="dynn_Samiyah"
 	culture = assyrian
-	religion="nestorian"
 }
 1059060 = {
 	name="dynn_Thomasina"
 	culture = assyrian
-	religion="nestorian"
 }
 1059061 = {
 	name="dynn_Tamasine"
 	culture = assyrian
-	religion="nestorian"
 }
 1059062 = {
 	name="dynn_Sameah"
 	culture = assyrian
-	religion="nestorian"
 }
 1059063 = {
 	name="dynn_Maccabee"
 	culture = assyrian
-	religion="nestorian"
 }
 1059064 = {
 	name="dynn_Tabetha"
 	culture = assyrian
-	religion="nestorian"
 }
 1059065 = {
 	name="dynn_Raziel"
 	culture = assyrian
-	religion="nestorian"
 }
 1059066 = {
 	name="dynn_Magdala"
 	culture = assyrian
-	religion="nestorian"
 }
 1059067 = {
 	name="dynn_Rachim"
 	culture = assyrian
-	religion="nestorian"
 }
 1059068 = {
 	name="dynn_Samal"
 	culture = assyrian
-	religion="nestorian"
 }
 1059069 = { 
 	name = "dynn_Mariam"
 	culture = assyrian
-	religion="nestorian"
 }
 1059070 = { 
 	name = "dynn_Mirza"
 	culture = assyrian
-	religion="nestorian"
 }
 
 ################################# 
@@ -1183,31 +1138,26 @@ olshanski = {
 105837 = {
 	name = "dynn_Yang" #Imperial family of Sui
 	culture="han"
-	religion="taoist"
 }
 
 105853 = {
 	name = "dynn_Helan"
 	culture="han"
-	religion="taoist"
 }
 
 105854 = {
 	name = "dynn_Chai"
 	culture="han"
-	religion="taoist"
 }
 
 105855 = {
 	name = "dynn_Dao"
 	culture="han"
-	religion="taoist"
 }
 
 105856 = {
 	name = "dynn_Doulu"
 	culture="han"
-	religion="taoist"
 }
 1051208 = {
 	name = "dynn_Wu"
