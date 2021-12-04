@@ -3362,13 +3362,13 @@ e_Tengri_Khanate = { ####텡그리 칸국 / Taengri Khanguk / Tengri Khanate
 		color = { 86 44 56 }
 		color2 = { 255 255 255 }
 		
-		capital = c_Ballitunallan #발리투날란
+		capital = c_Hiyateu #발리투날란
 
 		d_Hiyateu = {  ##히야트
 			color = { 86 44 56 }
 			color2 = { 255 255 255 }
 			
-			capital = c_Ballitunallan #발리투날란
+			capital = c_Hiyateu #발리투날란
 	
 			c_Hiyateu = { #히야트
 				color = { 86 44 56 }
@@ -3514,7 +3514,7 @@ e_Tengri_Khanate = { ####텡그리 칸국 / Taengri Khanguk / Tengri Khanate
 			color = { 251 119 159 }
 			color2 = { 255 255 255 }
 			
-			capital = c_Pawa #파와
+			capital = c_pawa #파와
 
 			c_pawa = { #파와
 				color = { 251 119 159 }
@@ -6158,7 +6158,7 @@ e_Celestial_Empire = { ####천조/Cheonjo/天朝/Tianchao/
 			
 			capital = c_Joju #양_천평_조주
 	
-			c_cpJoju = { #양_천평_조주
+			c_Joju = { #양_천평_조주
 				color = { 114 5 199 }
 				color2 = { 255 255 255 }
 				
