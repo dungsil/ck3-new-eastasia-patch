@@ -1,0 +1,270 @@
+# standard costs
+@maa_buy_cost = 150
+@maa_low_maintenance_cost = 1.0
+@maa_high_maintenance_cost = 5.0
+@cultural_maa_extra_ai_score = 60 # Equivalent to having 6 extra regiments beyond what the code scoring would indicate (see NEGATIVE_SCORE_PER_EXISTING_REGIMENT)
+
+#동아시아 특수병종
+
+gaemamusa = { #개마무사, 중기병
+	type = heavy_cavalry
+	
+	damage = 114
+	toughness = 42
+	pursuit = 20
+	screen = 10
+	
+	terrain_bonus = {
+		steppe = { damage = 24 }
+		plains = { damage = 32 }
+		drylands = { damage = 16 }
+		hills = { damage = -24 }
+		mountains = { damage = -60 }
+		desert_mountains = { damage = -60 }
+		wetlands = { damage = -54 }
+	}
+
+	counters = {
+		pikemen = 1
+		heavy_infantry = 1
+		skirmishers = 1
+	}
+
+	winter_bonus = {
+		normal_winter = { damage = -10 toughness = -5 }
+		harsh_winter = { damage = -20 toughness = -5 }
+	}
+
+	buy_cost = { gold = cataphract_recruitment_cost }
+	low_maintenance_cost = { gold = cataphract_low_maint_cost }
+	high_maintenance_cost = { gold = cataphract_high_maint_cost }
+	
+	stack = 50
+	ai_quality = { value = @cultural_maa_extra_ai_score }
+	icon = chevalier
+}
+
+mujeol = { #무절, 중보병
+	type = heavy_infantry
+	
+	damage = 66
+	toughness = 78
+	pursuit = 6
+	screen = 18
+	
+	terrain_bonus = {
+		hills = { damage = 4 toughness = 4 }
+		mountains = { damage = 3 toughness = 4 }
+		forest = { damage = 4 toughness = 6 }
+	}
+
+	counters = {
+		heavy_infantry = 1
+		pikemen = 1
+		archers = 1
+	}
+
+	buy_cost = { gold = varangian_veterans_recruitment_cost }
+	low_maintenance_cost = { gold = varangian_veterans_low_maint_cost }
+	high_maintenance_cost = { gold = varangian_veterans_high_maint_cost }
+	
+	stack = 150
+	ai_quality = { value = @cultural_maa_extra_ai_score }	
+	icon = heavy_infantry
+}
+
+hwarang = { #화랑, 궁병
+	type = archers
+	
+	damage = 56
+	toughness = 12
+	pursuit = 6
+	screen = 4
+	
+	terrain_bonus = {
+		mountains = { damage = 6 screen = 6 }
+		plains = { damage = 8 pursuit = 4 }
+		hills = { damage = 6 toughness = 4 }
+		forest = { toughness = 6 screen = 6 }
+		taiga = { toughness = 6 screen = 6 }
+	}
+
+	counters = {
+		skirmishers = 1
+		pikemen = 1
+		archers = 1
+	}
+
+	buy_cost = { gold = longbowmen_recruitment_cost }
+	low_maintenance_cost = { gold = longbowmen_low_maint_cost }
+	high_maintenance_cost = { gold = longbowmen_high_maint_cost }
+	
+	stack = 100
+	ai_quality = { value = culture_ai_weight_archers }
+	icon = bowmen
+}
+
+jangchangdang = { #장창당, 창병
+	type = pikemen
+	
+	damage = 46
+	toughness = 48
+	pursuit = 0
+	screen = 48
+	
+	terrain_bonus = {
+		plains = { toughness = 4 screen = 4 }
+		forest = { damage = 6 toughness = 4 screen = 6 }
+		mountains = { damage = 10 toughness = 12 }
+		hills = { damage = 8 toughness = 8 }
+	}
+
+	counters = {
+		light_cavalry = 1
+		heavy_cavalry = 1
+	}
+
+	buy_cost = { gold = landsknecht_recruitment_cost }
+	low_maintenance_cost = { gold = landsknecht_low_maint_cost }
+	high_maintenance_cost = { gold = landsknecht_high_maint_cost }
+
+	stack = 100
+	ai_quality = { value = culture_ai_weight_pikemen }
+	icon = pikemen
+}
+
+sinbogun = { #별무반, 중보병
+	type = heavy_infantry
+	
+	damage = 62
+	toughness = 36
+	pursuit = 6
+	screen = 28
+	
+	terrain_bonus = {
+		hills = { damage = 8 toughness = 4 }
+		mountains = { damage = 6 toughness = 4 }
+		forest = { damage = 8 toughness = 6 }
+	}
+
+	counters = {
+		skirmishers = 1
+		light_cavalry = 2
+		heavy_cavalry = 1
+	}
+
+	buy_cost = { gold = mubarizun_recruitment_cost }
+	low_maintenance_cost = { gold = mubarizun_low_maint_cost }
+	high_maintenance_cost = { gold = mubarizun_high_maint_cost }
+	
+	stack = 150
+	ai_quality = { value = @cultural_maa_extra_ai_score }
+	icon = heavy_infantry
+}
+
+gungwigigun = { #궁위기궁, 경기병
+	type = light_cavalry
+	
+	damage = 48
+	toughness = 12
+	pursuit = 36
+	screen = 12
+	
+	terrain_bonus = {
+		farmland = { damage = 22 pursuit = 7 } #+45%,+20%
+		plains = { damage = 12 } #+25%
+		steppe = { damage = 22 pursuit = 7 } #+45%,+20%
+		drylands = { damage = 12 } #+25%
+		desert = { damage = 12 } #+25%
+		hills = { damage = -8 } #-16%
+		mountains = { damage = -19 } #-40%
+		desert_mountains = { damage = -19 } #-40%
+		wetlands = { damage = -24 toughness = -12 pursuit = -36 screen = -12 } #-50%,-100%,-100%,-100%
+	}
+
+	counters = {
+		archers = 1
+		skirmishers = 1
+		light_cavalry = 1
+	}
+
+	winter_bonus = {
+		harsh_winter = { damage = -16 toughness = -6 }
+	}
+
+	buy_cost = { gold = cataphract_recruitment_cost }
+	low_maintenance_cost = { gold = cataphract_low_maint_cost }
+	high_maintenance_cost = { gold = cataphract_high_maint_cost }
+	
+	stack = 100
+	ai_quality = { value = @cultural_maa_extra_ai_score }
+	icon = light_cavalry
+}
+
+goejama = { #괴자마, 중기병
+	type = heavy_cavalry
+	
+	damage = 122
+	toughness = 42
+	pursuit = 24
+	screen = 18
+	
+	terrain_bonus = {
+		steppe = { damage = 24 toughness = 8 }
+		plains = { damage = 24 toughness = 8 }
+		drylands = { damage = 12 }
+		hills = { damage = -24 screen = -10 }
+		mountains = { damage = -60 }
+		desert_mountains = { damage = -60 }
+		wetlands = { damage = -64 }
+	}
+
+	counters = {
+		pikemen = 1
+		heavy_infantry = 1
+		skirmishers = 1
+	}
+
+	winter_bonus = {
+		normal_winter = { damage = -12 toughness = -7 }
+		harsh_winter = { damage = -22 toughness = -7 }
+	}
+
+	buy_cost = { gold = cataphract_recruitment_cost }
+	low_maintenance_cost = { gold = cataphract_low_maint_cost }
+	high_maintenance_cost = { gold = cataphract_high_maint_cost }
+	
+	stack = 40
+	ai_quality = { value = @cultural_maa_extra_ai_score }
+	icon = chevalier
+	fallback_in_hired_troops_if_unlocked = yes
+}
+
+galkkamagwigun = { #갈까마귀군, 산병
+	type = skirmishers
+	
+	damage = 32
+	toughness = 24
+	pursuit = 16
+	screen = 12
+	
+	terrain_bonus = {
+		plains = { damage = 4 pursuit = 4 toughness = -4 }
+		forest = { damage = 4 toughness = 6 }
+		hills = { damage = 2 toughness = 6 screen = 4 }
+		drylands = { damage = 2 toughness = 4 }
+	}
+
+	counters = {
+		heavy_infantry = 1
+		skirmishers = 1
+	}
+
+	buy_cost = { gold = ayyar_recruitment_cost }
+	low_maintenance_cost = { gold = ayyar_low_maint_cost }
+	high_maintenance_cost = { gold = ayyar_high_maint_cost }
+	
+	stack = 110
+	ai_quality = { value = culture_ai_weight_skirmishers }
+	icon = skirmishers
+}
