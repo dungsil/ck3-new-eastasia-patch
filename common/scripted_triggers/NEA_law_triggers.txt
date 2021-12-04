@@ -1,0 +1,3 @@
+﻿realm_law_use_Autocracy_government_authority = {
+  has_government = Autocracy_government
+}

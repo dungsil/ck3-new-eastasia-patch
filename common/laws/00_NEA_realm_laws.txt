@@ -1,0 +1,130 @@
+﻿@Autocracy_government_authority_cooldown_years = 5
+
+Autocracy_government_authority = { #통치권
+	default = Balanced_sovereignty
+	cumulative = yes
+	flag = realm_law
+	
+	Uncontrolled_sovereignty = { #자율 봉신 (동아시아 특성:자율봉신이어도 명령 불복종시 반역으로 간주)
+		modifier = {
+			direct_vassal_opinion = 15
+			Autocracy_government_tax_contribution_mult = -0.3
+			vassal_levy_contribution_mult = -0.5
+		}
+		flag = vassal_refusal_is_treason
+		flag = can_change_succession_laws
+		flag = titles_cannot_leave_realm_on_succession
+		flag = title_revocation_allowed
+		flag = vassal_retraction_allowed
+
+		can_keep = { realm_law_use_crown_authority = yes }
+	}
+	
+	Balanced_sovereignty = { #군주권과 신권의 조화
+		modifier = {
+			direct_vassal_opinion = -20
+			Autocracy_government_tax_contribution_mult = 0.4
+			vassal_levy_contribution_mult = 0.65
+		}
+
+		can_keep = { realm_law_use_Autocracy_government_authority = yes }
+
+		can_pass = {
+			trigger_if = {
+				limit = { has_realm_law = Uncontrolled_sovereignty }
+				custom_description = {
+					subject = root
+					text = "has_Autocracy_government_authority_cooldown"
+					NAND = {
+						has_variable = Autocracy_government_authority_cooldown
+						NOT = {
+							culture = { has_innovation = innovation_all_things }
+						}
+					}
+				}
+			}
+			prestige_level >= high_prestige_level
+		}
+		
+		pass_cost = {
+			prestige = {
+				if = {
+					limit = {
+						NOR = {
+							has_realm_law = Controlled_total_sovereignty
+						}
+					}
+					add = increase_crown_authority_prestige_cost
+				}
+			}
+		}
+		
+		on_pass = {
+			# Increment cooldown breaker tally, if appropriate.
+			calculate_authority_cooldown_break_effect = yes
+			# Set regular cooldown.
+			set_variable = {
+				name = Autocracy_government_authority_cooldown
+				years = @Autocracy_government_authority_cooldown_years
+			}
+		}
+
+		ai_will_do = {
+			if = {
+				limit = { has_realm_law = Uncontrolled_sovereignty }
+				value = 1
+			}
+		}
+	}
+	
+	Controlled_total_sovereignty = { #통제된 전제군주권
+		modifier = {
+			domain_limit = 4
+			direct_vassal_opinion = -20
+			Autocracy_government_tax_contribution_mult = 0.4
+			vassal_levy_contribution_mult = 0.35
+		}
+		flag = vassal_all_wars_banned
+		flag = can_designate_heirs
+		
+		can_keep = { realm_law_use_Autocracy_government_authority = yes }
+
+		can_pass = {
+			has_realm_law = Balanced_sovereignty
+			custom_description = {
+				subject = root
+				text = "has_Autocracy_government_authority_cooldown"
+				NAND = {
+					has_variable = Autocracy_government_authority_cooldown
+					NOT = {
+						culture = { has_innovation = innovation_all_things }
+					}
+				}
+			}
+			prestige_level >= very_high_prestige_level
+			
+		}
+		
+		pass_cost = {
+			prestige = {
+				if = {
+					limit = {
+						NOT = { has_realm_law = Controlled_total_sovereignty }
+					}
+					add = increase_Autocracy_government_authority_prestige_cost
+				}
+			}
+		}
+		
+		on_pass = {
+			# Increment cooldown breaker tally, if appropriate.
+			calculate_authority_cooldown_break_effect = yes
+			# Set regular cooldown.
+			set_variable = {
+				name = Autocracy_government_authority_cooldown
+				years = @Autocracy_government_authority_cooldown_years
+			}
+		}
+	}
+}
+
