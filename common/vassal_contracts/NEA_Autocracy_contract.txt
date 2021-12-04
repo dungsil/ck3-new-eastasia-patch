@@ -12,7 +12,6 @@
 				vassal_opinion = 10
 				
 				domain_limit = 5
-				max_garrison = 250
 				garrison_size = 0.2
 				defender_holding_advantage = 5
 				hostile_raid_time = 0.15
