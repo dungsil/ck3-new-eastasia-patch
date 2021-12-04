@@ -51,15 +51,11 @@
 		Autocracy_government_obligations
 	}
 
-	character_modifier = {
-			domain_limit = 2
-			knight_limit = 6
-			vassal_limit = 3
-
-		feudal_government_vassal_opinion = -15 #봉건제 신하와의 의견
-		clan_government_vassal_opinion = -25 #씨족제 신하와의 의견
-		republic_government_vassal_opinion = -25 #공화제 신하와의 의견
-		theocracy_government_vassal_opinion = -15 #신정제 신하와의 의견
+  character_modifier = {
+		#feudal_government_vassal_opinion = -15 #봉건제 신하와의 의견
+		#clan_government_vassal_opinion = -25 #씨족제 신하와의 의견
+		#republic_government_vassal_opinion = -25 #공화제 신하와의 의견
+		#theocracy_government_vassal_opinion = -15 #신정제 신하와의 의견
 
 		men_at_arms_maintenance = 0.35 #군대 유지비
 		mercenary_hire_cost_mult = 0.25 #용병 고용비
@@ -67,13 +63,12 @@
 		development_growth_factor = 0.1 #개발도상승 백분율 수치
 		development_growth = 0.1 #개발도상승 수치
 		development_growth_factor = small_development_growth_loss
-		corruption_negative = 0.4 (무슨 수치인지 모르겠음)
+		#corruption_negative = 0.4 (무슨 수치인지 모르겠음)
 		build_speed = 0.1 #건물 건설속도(동아시아 특성 : 대규모 인력동원)
 		build_gold_cost = 0.2 #건물 건설비용 (동아시아 특성 : 토목공사 비용충당)
 		ai_war_chance = 0.5
 		ai_war_cooldown = 1
 		ai_rationality = 1
-			
 	}
 
 	color = { 250 175 50 }
@@ -152,7 +147,7 @@ Bureaucracy_government = { #동아시아 관료제(기존 공화정 대체)
 
 		development_growth_factor = 0.1 #개발도상승 백분율 수치
 		development_growth = 0.1 #개발도상승 수치
-		corruption_negative = 0.4 (무슨 수치인지 모르겠음)
+		#corruption_negative = 0.4 (무슨 수치인지 모르겠음)
 		build_speed = 0.1 #건물 건설속도(동아시아 특성 : 대규모 인력동원)
 		build_gold_cost = 0.2 #건물 건설비용 (동아시아 특성 : 토목공사 비용충당)
 
