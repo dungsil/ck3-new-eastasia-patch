@@ -1,4 +1,9 @@
-﻿# NEW 동아시아 모드 버그 패치
+﻿
+ 본 모드 적용으로 배포 중지
+ 
+ -----------------------------------------------------------------------------
+ 
+ # NEW 동아시아 모드 버그 패치
 ![#](https://img.shields.io/steam/downloads/2673198736?style=flat-square)
 ![#](https://img.shields.io/steam/release-date/2673198736?style=flat-square)
 ![#](https://img.shields.io/steam/size/2673198736?style=flat-square)
